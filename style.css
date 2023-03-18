@@ -70,6 +70,11 @@ button {
   color: rgb(0, 188, 138);
 }
 
+.selected {
+  background-color: #d4d4d4;
+  color: #1e1e1e;
+}
+
 .serious {
   font-family: "Serious Sans";
 }
