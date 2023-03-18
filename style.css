@@ -1,3 +1,33 @@
+@font-face {
+  font-family: "Serious Sans";
+  src: url("./SeriousSans/ttf/SeriousSans.ttf");
+}
+
+@font-face {
+  font-family: "Serious Sans Italic";
+  src: url("./SeriousSans/ttf/SeriousSansItalic.ttf");
+}
+
+@font-face {
+  font-family: "Serious Sans Bold";
+  src: url("./SeriousSans/ttf/SeriousSansBold.ttf");
+}
+
+@font-face {
+  font-family: "Serious Sans Bold Italic";
+  src: url("./SeriousSans/ttf/SeriousSansBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Serious Sans Light";
+  src: url("./SeriousSans/ttf/SeriousSansLight.ttf");
+}
+
+@font-face {
+  font-family: "Serious Sans Light Italic";
+  src: url("./SeriousSans/ttf/SeriousSansLightItalic.ttf");
+}
+
 body {
   background-color: #1e1e1e;
   color: #d4d4d4;
@@ -27,10 +57,39 @@ li {
   vertical-align: baseline;
 }
 
+button {
+  width: 12em;
+  align-self: center;
+}
+
 :link {
   color: aqua;
 }
 
 :visited {
   color: rgb(0, 188, 138);
+}
+
+.serious {
+  font-family: "Serious Sans";
+}
+
+.seriousItalic {
+  font-family: "Serious Sans Italic";
+}
+
+.seriousBold {
+  font-family: "Serious Sans Bold";
+}
+
+.seriousBoldItalic {
+  font-family: "Serious Sans Bold Italic";
+}
+
+.seriousLight {
+  font-family: "Serious Sans Light";
+}
+
+.seriousLightItalic {
+  font-family: "Serious Sans Light Italic";
 }
