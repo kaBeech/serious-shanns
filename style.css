@@ -82,6 +82,10 @@ li {
 
 button {
   width: 12em;
+}
+
+button,
+input {
   align-self: center;
   font-family: inherit;
   font-size: 100%;
