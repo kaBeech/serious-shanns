@@ -6,23 +6,23 @@ This font is a fork of [dtinth](https://github.com/dtinth)’s [Comic Mono](http
 ## Downloads
 
 ### TrueType Format
-[SeriousSans.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSans.ttf)
+[SeriousSans.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSans.ttf)  
 [SeriousSansItalic.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansItalic.ttf)
 
-[SeriousSansBold.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansBold.ttf)
+[SeriousSansBold.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansBold.ttf)  
 [SeriousSansBoldItalic.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansBoldItalic.ttf)
 
-[SeriousSansLight.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansLight.ttf)
+[SeriousSansLight.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansLight.ttf)  
 [SeriousSansLightItalic.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansLightItalic.ttf)
 
 ### OpenType Format
-[SeriousSans.otf](https://kaBeech.github.io/serious-sans/blob/main/SeriousSans/otf/SeriousSans.otf)
+[SeriousSans.otf](https://kaBeech.github.io/serious-sans/blob/main/SeriousSans/otf/SeriousSans.otf)  
 [SeriousSansItalic.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansItalic.otf)
 
-[SeriousSansBold.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansBold.otf)
+[SeriousSansBold.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansBold.otf)  
 [SeriousSansBoldItalic.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansBoldItalic.otf)
 
-[SeriousSansLight.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansLight.otf)
+[SeriousSansLight.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansLight.otf)  
 [SeriousSansLightItalic.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansLightItalic.otf)
 
 ## What?
