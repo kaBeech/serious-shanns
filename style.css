@@ -1,4 +1,36 @@
 body {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  display: flex;
+  flex-direction: column;
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-align: center;
+}
+
+ul,
+ol {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+:link {
+  color: aqua;
+}
+
+:visited {
+  color: rgb(0, 188, 138);
 }
