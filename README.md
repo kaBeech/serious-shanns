@@ -22,6 +22,8 @@ Legibility means being able to quickly tell which character is which. In fonts w
 ### Monospacing
 Monospacing means ensuring every character has the same width. This is helpful to quickly line up rows of text. For an example of why this is helpful, consider adding up a fancy dinner bill:
 
+![Adding up a fancy dinner bill](https://github.com/kaBeech/serious-sans/blob/main/fancyDinner.png "Adding up a fancy dinner bill")
+
 ```
 
 Drinks:                   $  73.68
