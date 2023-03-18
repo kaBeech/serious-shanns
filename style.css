@@ -36,6 +36,10 @@
     display: flex;
     justify-content: space-evenly;
   }
+  #previewButtons {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 body {
@@ -93,6 +97,14 @@ button {
 
 :visited {
   color: rgb(0, 188, 138);
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
 }
 
 .selected {
