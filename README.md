@@ -39,7 +39,7 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 
 ## Differences from Comic Mono
 1. I just edited the 'a' to make it look less like an 'o'
-2. Currently there is no bold version. I will make a bold version of some sort but I have not yet done so
+2. Currently there is no bold version. I plan to make a bold version of some sort but I have not yet done so
 - Note: you can ignore the generate.py file - it generates the original Comic Mono font. I haven't decided yet if I'm going to modify or remove it
 
 ## License
