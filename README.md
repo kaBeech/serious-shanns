@@ -4,7 +4,12 @@ A legible monospace font for playful professionals. Comic Sans for hackers
 This font is a fork of [dtinth](https://github.com/dtinth)’s [Comic Mono](https://github.com/dtinth/comic-mono-font), which in turn is a fork of [Shannon Miwa](https://github.com/shannpersand)’s [Comic Shanns](https://github.com/shannpersand/comic-shanns) (version 1)
 
 ## Download
-- [SeriousSans.ttf](https://github.com/kaBeech/serious-sans/SeriousSans.ttf)
+- [SeriousSans.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/SeriousSans.ttf)
+- [SeriousSansItalic.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/SeriousSansItalic.ttf)
+- [SeriousSansBold.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/SeriousSansBold.ttf)
+- [SeriousSansBoldItalic.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/SeriousSansBoldItalic.ttf)
+- [SeriousSansLight.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/SeriousSansLight.ttf)
+- [SeriousSansLightItalic.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/SeriousSansLightItalic.ttf)
 
 ## What?
 Serious Sans is a legible monospaced font made to resemble the classic Comic Sans font we all know and love. It is designed to be suitable for use in a professional coding environment while retaining the playfulness of the original
@@ -33,8 +38,15 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 
 ## Differences from Comic Mono
 1. I just edited the 'a' to make it look less like an 'o'
-2. Currently there is no bold version. I plan to make a bold version of some sort but I have not yet done so
+2. I remade the Bold weight style and added a Light weight style as well
+3. I added Italic styles for each weight style
+
 - Note: you can ignore the generate.py file - it generates the original Comic Mono font. I haven't decided yet if I'm going to modify or remove it
+
+## Any issues?
+If you notice any, please feel free to open an issue!
+
+Please note that so far I have only been using the original SeriousSans.tff. The other styles have been reviewed but are largely untested
 
 ## License
 Serious Sans is licensed under the [MIT License](LICENSE).
