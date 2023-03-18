@@ -24,8 +24,7 @@ Entrees:                  $ 105.26
 Dessert:                  $  49.74
 Souvenir Bottle Opener:   $   9.99
 Tip:                     +$  75.00
-----------------------------------
-                         =$ 372.40
+                         =$ 372.40`
 
 Without a monospaced font, getting all those numbers to line up for easy adding would be a pain!
 
