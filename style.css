@@ -60,6 +60,12 @@ li {
 button {
   width: 12em;
   align-self: center;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
 }
 
 :link {
@@ -71,8 +77,8 @@ button {
 }
 
 .selected {
-  background-color: #d4d4d4;
-  color: #1e1e1e;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
 }
 
 .serious {
@@ -86,8 +92,7 @@ button {
 .seriousBold {
   font-family: "Serious Sans Bold";
 }
-
-.seriousBoldItalic {
+d4d4d4 .seriousBoldItalic {
   font-family: "Serious Sans Bold Italic";
 }
 
