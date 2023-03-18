@@ -6,31 +6,31 @@ This font is a fork of [dtinth](https://github.com/dtinth)’s [Comic Mono](http
 ## Downloads
 
 ### TrueType Format
-- [SeriousSans.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/ttf/SeriousSans.ttf)
-- [SeriousSansItalic.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/ttf/SeriousSansItalic.ttf)
+- [SeriousSans.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSans.ttf)
+- [SeriousSansItalic.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansItalic.ttf)
 
-- [SeriousSansBold.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/ttf/SeriousSansBold.ttf)
-- [SeriousSansBoldItalic.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/ttf/SeriousSansBoldItalic.ttf)
+- [SeriousSansBold.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansBold.ttf)
+- [SeriousSansBoldItalic.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansBoldItalic.ttf)
 
-- [SeriousSansLight.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/ttf/SeriousSansLight.ttf)
-- [SeriousSansLightItalic.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/ttf/SeriousSansLightItalic.ttf)
+- [SeriousSansLight.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansLight.ttf)
+- [SeriousSansLightItalic.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansLightItalic.ttf)
 
 ### OpenType Format
-- [SeriousSans.otf](https://github.com/kaBeech/serious-sans/blob/main/SeriousSans/otf/SeriousSans.otf)
-- [SeriousSansItalic.otf](https://github.com/kaBeech/serious-sans/SeriousSans/otf/SeriousSansItalic.otf)
+- [SeriousSans.otf](https://kaBeech.github.io/serious-sans/blob/main/SeriousSans/otf/SeriousSans.otf)
+- [SeriousSansItalic.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansItalic.otf)
 
-- [SeriousSansBold.otf](https://github.com/kaBeech/serious-sans/SeriousSans/otf/SeriousSansBold.otf)
-- [SeriousSansBoldItalic.otf](https://github.com/kaBeech/serious-sans/SeriousSans/otf/SeriousSansBoldItalic.otf)
+- [SeriousSansBold.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansBold.otf)
+- [SeriousSansBoldItalic.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansBoldItalic.otf)
 
-- [SeriousSansLight.otf](https://github.com/kaBeech/serious-sans/SeriousSans/otf/SeriousSansLight.otf)
-- [SeriousSansLightItalic.otf](https://github.com/kaBeech/serious-sans/SeriousSans/otf/SeriousSansLightItalic.otf)
+- [SeriousSansLight.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansLight.otf)
+- [SeriousSansLightItalic.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansLightItalic.otf)
 
 ## What?
 Serious Sans is a legible monospaced font made to resemble the classic Comic Sans font we all know and love. It is designed to be suitable for use in a professional coding environment while retaining the playfulness of the original
 
-Here's what it looks like viewing one of [my Advent Of Code functions](https://github.com/kaBeech/Advent-Of-Code-2022) in VS Code:
+Here's what it looks like viewing one of [my Advent Of Code functions](https://kaBeech.github.io/Advent-Of-Code-2022) in VS Code:
 
-![Serious Sans in VS Code](https://github.com/kaBeech/serious-sans/blob/main/vscExample.png "Serious Sans in VS Code")
+![Serious Sans in VS Code](https://kaBeech.github.io/serious-sans/blob/main/vscExample.png "Serious Sans in VS Code")
 
 ## Why?
 To overcome writer's block, some writers change the font of their word processor to Comic Sans. Perhaps the jaunty style helps put our brains in a playful mood so we can just write without getting hung up in self-criticism
@@ -43,7 +43,7 @@ Legibility means being able to quickly tell which character is which. In fonts w
 ### Monospacing
 Monospacing means ensuring every character has the same width. This is helpful to quickly line up rows of text. For an example of why this is helpful, consider adding up a fancy dinner bill:
 
-![Adding up a fancy dinner bill](https://github.com/kaBeech/serious-sans/blob/main/fancyDinner.png "Adding up a fancy dinner bill")
+![Adding up a fancy dinner bill](https://kaBeech.github.io/serious-sans/blob/main/fancyDinner.png "Adding up a fancy dinner bill")
 
 Without a monospaced font, getting all those numbers to line up for easy adding would be a pain!
 
