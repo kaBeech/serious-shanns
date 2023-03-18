@@ -3,7 +3,7 @@ A legible monospace font for playful professionals. Comic Sans for hackers
 
 This font is a fork of [dtinth](https://github.com/dtinth)’s [Comic Mono](https://github.com/dtinth/comic-mono-font), which in turn is a fork of [Shannon Miwa](https://github.com/shannpersand)’s [Comic Shanns](https://github.com/shannpersand/comic-shanns) (version 1)
 
-## Download
+## Downloads
 
 ### TrueType Format
 - [SeriousSans.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/ttf/SeriousSans.ttf)
@@ -16,7 +16,7 @@ This font is a fork of [dtinth](https://github.com/dtinth)’s [Comic Mono](http
 - [SeriousSansLightItalic.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/ttf/SeriousSansLightItalic.ttf)
 
 ### OpenType Format
-- [SeriousSans.otf](https://github.com/kaBeech/serious-sans/SeriousSans/otf/SeriousSans.otf)
+- [SeriousSans.otf](https://github.com/kaBeech/serious-sans/blob/main/SeriousSans/otf/SeriousSans.otf)
 - [SeriousSansItalic.otf](https://github.com/kaBeech/serious-sans/SeriousSans/otf/SeriousSansItalic.otf)
 
 - [SeriousSansBold.otf](https://github.com/kaBeech/serious-sans/SeriousSans/otf/SeriousSansBold.otf)
