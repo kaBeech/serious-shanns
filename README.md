@@ -26,14 +26,14 @@ Monospacing means ensuring every character has the same width. This is helpful t
 
 This is what that same text looks like in GitHub's default font:
 
-Drinks:                   $  73.68  
-Appetizers:               $  58.73  
-Entrees:                  $ 105.26  
-Dessert:                  $  49.74  
-Souvenir Bottle Opener:   $   9.99  
-Tip:                      $  75.00  
-\----------------------------------  
-Total:                    $ 372.40  
+>Drinks:                   $  73.68  
+>Appetizers:               $  58.73  
+>Entrees:                  $ 105.26  
+>Dessert:                  $  49.74  
+>Souvenir Bottle Opener:   $   9.99  
+>Tip:                      $  75.00  
+>----------------------------------  
+>Total:                    $ 372.40  
 
 Without a monospaced font, getting all those numbers to line up for easy adding would be a pain!
 
