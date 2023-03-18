@@ -8,6 +8,7 @@ A legible monospaced font for folks who enjoy life. This font is a fork of [dtin
 Serious Sans is a legible monospaced font made to resemble the classic Comic Sans font we all know and love. It is designed to be suitable for use in a professional coding environment while retaining the playfulness of the original
 
 Here's what it looks like viewing [one of my Advent Of Code functions](https://github.com/kaBeech/Advent-Of-Code-2022) in VS Code:
+
 ![Serious Sans in VS Code](https://github.com/kaBeech/serious-sans/blob/main/vscExample.png "Serious Sans in VS Code")
 
 ## Why?
