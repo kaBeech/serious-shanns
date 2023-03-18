@@ -28,15 +28,33 @@
   src: url("./SeriousSans/ttf/SeriousSansLightItalic.ttf");
 }
 
+@media (min-width: 440px) {
+  #main {
+    max-width: 70%;
+  }
+  #downloads {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
 body {
   background-color: #1e1e1e;
   color: #d4d4d4;
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 100%;
   font-size: 1.5rem;
   text-align: center;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1em;
 }
 
 ul,
