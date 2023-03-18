@@ -18,13 +18,13 @@ Legibility means being able to quickly tell which character is which. In fonts w
 ### Monospacing
 Monospacing means ensuring every character has the same width. This is helpful to quickly line up rows of text. For an example of why this is helpful, consider adding up a fancy dinner bill:
 
-```Drinks:                   $  73.68
+`Drinks:                   $  73.68
 Appetizers:               $  58.73
 Entrees:                  $ 105.26
 Dessert:                  $  49.74
 Souvenir Bottle Opener:   $   9.99
 Tip:                     +$  75.00
-                         =$ 372.40```
+                         =$ 372.40`
 
 Without a monospaced font, getting all those numbers to line up for easy adding would be a pain!
 
