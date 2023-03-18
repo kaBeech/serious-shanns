@@ -30,7 +30,7 @@ Serious Sans is a legible monospaced font made to resemble the classic Comic San
 
 Here's what it looks like viewing one of [my Advent Of Code functions](https://kaBeech.github.io/Advent-Of-Code-2022) in VS Code:
 
-![Serious Sans in VS Code](https://kaBeech.github.io/serious-sans/blob/main/vscExample.png "Serious Sans in VS Code")
+![Serious Sans in VS Code](https://kaBeech.github.io/serious-sans/vscExample.png "Serious Sans in VS Code")
 
 ## Why?
 To overcome writer's block, some writers change the font of their word processor to Comic Sans. Perhaps the jaunty style helps put our brains in a playful mood so we can just write without getting hung up in self-criticism
@@ -43,7 +43,7 @@ Legibility means being able to quickly tell which character is which. In fonts w
 ### Monospacing
 Monospacing means ensuring every character has the same width. This is helpful to quickly line up rows of text. For an example of why this is helpful, consider adding up a fancy dinner bill:
 
-![Adding up a fancy dinner bill](https://kaBeech.github.io/serious-sans/blob/main/fancyDinner.png "Adding up a fancy dinner bill")
+![Adding up a fancy dinner bill](https://kaBeech.github.io/serious-sans/fancyDinner.png "Adding up a fancy dinner bill")
 
 Without a monospaced font, getting all those numbers to line up for easy adding would be a pain!
 
