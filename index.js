@@ -1,5 +1,5 @@
-const exampleTextClasses = document.getElementById("exampleText").classList;
-
+const exampleText = document.getElementById("exampleText");
+const exampleTextClasses = exampleText.classList;
 const seriousButton = document.getElementById("seriousButton");
 const seriousItalicButton = document.getElementById("seriousItalicButton");
 const seriousBoldButton = document.getElementById("seriousBoldButton");
@@ -10,6 +10,8 @@ const seriousLightButton = document.getElementById("seriousLightButton");
 const seriousLightItalicButton = document.getElementById(
   "seriousLightItalicButton"
 );
+const newExampleTextButton = document.getElementById("newExampleTextButton");
+const newExampleText = document.getElementById("newExampleText");
 
 seriousButton.addEventListener("click", function () {
   this.classList.add("selected");
@@ -99,4 +101,8 @@ seriousLightItalicButton.addEventListener("click", function () {
   exampleTextClasses.remove("seriousBoldItalic");
   exampleTextClasses.remove("seriousLight");
   exampleTextClasses.add("seriousLightItalic");
+});
+
+newExampleTextButton.addEventListener("click", function () {
+  exampleText.setHTML(newExampleText.value);
 });
