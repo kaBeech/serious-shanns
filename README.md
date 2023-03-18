@@ -4,12 +4,26 @@ A legible monospace font for playful professionals. Comic Sans for hackers
 This font is a fork of [dtinth](https://github.com/dtinth)’s [Comic Mono](https://github.com/dtinth/comic-mono-font), which in turn is a fork of [Shannon Miwa](https://github.com/shannpersand)’s [Comic Shanns](https://github.com/shannpersand/comic-shanns) (version 1)
 
 ## Download
-- [SeriousSans.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/SeriousSans.ttf)
-- [SeriousSansItalic.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/SeriousSansItalic.ttf)
-- [SeriousSansBold.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/SeriousSansBold.ttf)
-- [SeriousSansBoldItalic.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/SeriousSansBoldItalic.ttf)
-- [SeriousSansLight.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/SeriousSansLight.ttf)
-- [SeriousSansLightItalic.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/SeriousSansLightItalic.ttf)
+
+### TrueType Format
+- [SeriousSans.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/ttf/SeriousSans.ttf)
+- [SeriousSansItalic.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/ttf/SeriousSansItalic.ttf)
+
+- [SeriousSansBold.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/ttf/SeriousSansBold.ttf)
+- [SeriousSansBoldItalic.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/ttf/SeriousSansBoldItalic.ttf)
+
+- [SeriousSansLight.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/ttf/SeriousSansLight.ttf)
+- [SeriousSansLightItalic.ttf](https://github.com/kaBeech/serious-sans/SeriousSans/ttf/SeriousSansLightItalic.ttf)
+
+### OpenType Format
+- [SeriousSans.otf](https://github.com/kaBeech/serious-sans/SeriousSans/otf/SeriousSans.otf)
+- [SeriousSansItalic.otf](https://github.com/kaBeech/serious-sans/SeriousSans/otf/SeriousSansItalic.otf)
+
+- [SeriousSansBold.otf](https://github.com/kaBeech/serious-sans/SeriousSans/otf/SeriousSansBold.otf)
+- [SeriousSansBoldItalic.otf](https://github.com/kaBeech/serious-sans/SeriousSans/otf/SeriousSansBoldItalic.otf)
+
+- [SeriousSansLight.otf](https://github.com/kaBeech/serious-sans/SeriousSans/otf/SeriousSansLight.otf)
+- [SeriousSansLightItalic.otf](https://github.com/kaBeech/serious-sans/SeriousSans/otf/SeriousSansLightItalic.otf)
 
 ## What?
 Serious Sans is a legible monospaced font made to resemble the classic Comic Sans font we all know and love. It is designed to be suitable for use in a professional coding environment while retaining the playfulness of the original
@@ -40,6 +54,7 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 1. I edited the 'a' to make it look less like an 'o'
 2. I remade the Bold weight style and added a Light weight style as well
 3. I added Italic styles for each weight style
+4. I added OpenType format versions
 
 - Note: you can ignore the generate.py file - it generates the original Comic Mono font. I haven't decided yet if I'm going to modify or remove it
 
