@@ -45,5 +45,5 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 ## License
 Serious Sans is licensed under the [MIT License](LICENSE).
 
-## Note
+## Disclaimer
 Please note that this font is in no way affiliated with the delightful [Serious Sans Pro](https://www.myfonts.com/collections/serious-sans-pro-font-ogentroost) font. I just like classic PC games ^_^
