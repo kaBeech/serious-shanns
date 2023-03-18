@@ -12,7 +12,7 @@ Here's what it looks like viewing [one of my Advent Of Code functions](https://g
 ![Serious Sans in VS Code](https://github.com/kaBeech/serious-sans/blob/main/vscExample.png "Serious Sans in VS Code")
 
 ## Why?
-To overcome writer's block, some writers change the font of their word processor to Comic Sans. Perhaps the jaunty style helps put their brains in a playful mood so they can just write without getting hung up in self-criticism
+To overcome writer's block, some writers change the font of their word processor to Comic Sans. Perhaps the jaunty style helps put our brains in a playful mood so we can just write without getting hung up in self-criticism
 
 Serious Sans aims to provide that same experience for programmers and their IDE's. As programmers, we also enjoy playful styling and tools that help us just get to work. But most of us like to have certain standards that make our work easier. Monospacing and legibility are important factors that facilitate quick scanning of many lines of code
 
