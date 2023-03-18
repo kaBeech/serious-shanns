@@ -13,11 +13,9 @@ To overcome writers' block, some writers change the font of their word processor
 Serious Sans aims to provide that same experience for programmers and their IDE's. We also enjoy playful styling and tools that help us just get to work. But most of us like to have certain standards that make our type of work easier. Monospacing and legibility are important factors that facilitate quick scanning of screens of text
 
 ### Legibility
-
 Legibility means being able to quickly tell which character is which. In fonts with low legibility, for example, it can be difficult to tell the difference between an upper case 'I' and a numeral '1'
 
 ### Monospacing
-
 Monospacing means making every character have the same width. This is helpful to quickly line up rows of text. For an example of why this is helpful, consider adding up a dinner bill:
 
 Drinks:        $23.68
@@ -31,12 +29,12 @@ Tip:          +$28.26
 Trying to get all those numbers to line up for easy adding would be a pain!
 
 ### Origins
-
 I originally changed the font in my IDE to Comic Mono as a joke. I decided to leave it that way for fun, and found that it actually seems to help my mindset while working. I made Serious Sans as my own leetle fork to improve the usability of the font ^_^
 
 ## Differences from Comic Mono
 1. I edited the 'a' to make it look less like an 'o'
 2. Currently there is no bold version. I will make a bold version of some sort but I have not yet done so
+Note: you can ignore the extra files in this repo - they just build the original Comic Mono font. I haven't decided if I'm going to modify or remove them yet
 
 ## License
 It is licensed under the [MIT License](LICENSE).
