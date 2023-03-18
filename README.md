@@ -24,20 +24,6 @@ Monospacing means ensuring every character has the same width. This is helpful t
 
 ![Adding up a fancy dinner bill](https://github.com/kaBeech/serious-sans/blob/main/fancyDinner.png "Adding up a fancy dinner bill")
 
-```
-
-Drinks:                   $  73.68
-Appetizers:               $  58.73
-Entrees:                  $ 105.26
-Dessert:                  $  49.74
-Souvenir Bottle Opener:   $   9.99
-Tip:                      $  75.00
-----------------------------------
-Total:                    $ 372.40
-
-
-```
-
 Without a monospaced font, getting all those numbers to line up for easy adding would be a pain!
 
 ### Origins
