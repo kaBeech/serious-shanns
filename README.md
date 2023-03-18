@@ -1,47 +1,45 @@
-# Comic Mono
-A legible monospace font... the very typeface you’ve been trained to recognize since childhood. This font is a fork of [Shannon Miwa](https://github.com/shannpersand)’s [Comic Shanns](https://github.com/shannpersand/comic-shanns) (version 1).
-
-<p class="website-hidden">
-  <a href="https://dtinth.github.io/comic-mono-font/">
-    <img src="https://repository-images.githubusercontent.com/164606802/cd83d680-894c-11e9-83f7-c353c70df1cb" alt="Screenshot">
-  </a>
-</p>
+# Serious Sans
+A legible monospaced font for folks who enjoy life. This font is a fork of [dtinth](https://github.com/dtinth)’s [Comic Mono](https://github.com/dtinth/comic-mono-font) (version 0.1.1), which in turn is a fork of [Shannon Miwa](https://github.com/shannpersand)’s [Comic Shanns](https://github.com/shannpersand/comic-shanns) (version 1).
 
 ## Download
-- [ComicMono.ttf](https://dtinth.github.io/comic-mono-font/ComicMono.ttf)
-- [ComicMono-Bold.ttf](https://dtinth.github.io/comic-mono-font/ComicMono-Bold.ttf)
+- [SeriousSans.ttf](https://github.com/kaBeech/serious-sans/SeriousSans.ttf)
 
-## Differences from Comic Shanns
-1. All glyphs have been [adjusted](https://www.reddit.com/r/programming/comments/kj0prs/comic_mono_font/ghc7krt/?utm_source=reddit&utm_medium=web2x&context=3) to have exactly the same width (using code based on [monospacifier](https://github.com/cpitclaudel/monospacifier)).
-2. The glyph metrics have been adjusted to make it display better alongside system font, based on [Cousine](https://fonts.google.com/specimen/Cousine)’s metrics.
-3. The name is changed to `Comic Mono`.
-4. A bold version of the font is generated using [FontForge’s Embolden](https://fontforge.github.io/Styles.html#Embolden) operation.
+## What?
+Serious Sans is a legible monospaced font made to resemble the classic Comic Sans font we all know and love. It is designed to be suitable for professional coding use while retaining the playfulness of the original
 
-I have no font creation skills; I’m just a software developer. This font family is created by patching the original font, [Comic Shanns (v1)](https://github.com/shannpersand/comic-shanns), using a Python script, [`generate.py`](generate.py).
+## Why?
+To overcome writers' block, some writers change the font of their word processor to Comic Sans. Perhaps the jaunty style helps put their brains in a playful mood so they can just write without getting hung up in self-criticism
 
-## What does it look like?
-<p class="website-hidden">
-  <a href="https://dtinth.github.io/comic-mono-font/#what-does-it-look-like">
-    Check it out!
-  </a>
-</p>
+Serious Sans aims to provide that same experience for programmers and their IDE's. We also enjoy playful styling and tools that help us just get to work. But most of us like to have certain standards that make our type of work easier. Monospacing and legibility are important factors that facilitate quick scanning of screens of text
 
-```python
-{% include_relative generate.py %}
-```
+### Legibility
 
-## CDN
-You can use this font in your web pages by including the stylesheet. CDN is provided by [jsDelivr](https://www.jsdelivr.com/package/npm/comic-mono).
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/comic-mono@0.0.1/index.css">
-```
+Legibility means being able to quickly tell which character is which. In fonts with low legibility, for example, it can be difficult to tell the difference between an upper case 'I' and a numeral '1'
 
-## npm Package
-The contents of this package is also [published to npm](https://www.npmjs.com/package/comic-mono), although the font files are not optimized. See fontsource package (below) for a better option.
+### Monospacing
 
-## Packages published by third parties
-- Fontsource: [@fontsource/comic-mono](https://www.npmjs.com/package/@fontsource/comic-mono) ([thanks @DecliningLotus](https://github.com/fontsource/fontsource/pull/117))
-- Arch Linux AUR: [ttf-comic-mono-git](https://aur.archlinux.org/packages/ttf-comic-mono-git/) (maintained by DBourgeoisat)
+Monospacing means making every character have the same width. This is helpful to quickly line up rows of text. For an example of why this is helpful, consider adding up a dinner bill:
+
+Drinks:        $23.68
+Appetizers:     $8.73
+Entrees:       $38.26
+Dessert:        $9.74
+Tip:          +$28.26
+---------------------
+              =$24.00
+
+Trying to get all those numbers to line up for easy adding would be a pain!
+
+### Origins
+
+I originally changed the font in my IDE to Comic Mono as a joke. I decided to leave it that way for fun, and found that it actually seems to help my mindset while working. I made Serious Sans as my own leetle fork to improve the usability of the font ^_^
+
+## Differences from Comic Mono
+1. I edited the 'a' to make it look less like an 'o'
+2. Currently there is no bold version. I will make a bold version of some sort but I have not yet done so
 
 ## License
 It is licensed under the [MIT License](LICENSE).
+
+## Note
+Please note that this font is in no way affiliated with the delightful [Serious Sans Pro](https://www.myfonts.com/collections/serious-sans-pro-font-ogentroost) font. I just like classic PC games ^_^
