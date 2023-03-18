@@ -29,9 +29,10 @@ Appetizers:               $  58.73
 Entrees:                  $ 105.26
 Dessert:                  $  49.74
 Souvenir Bottle Opener:   $   9.99
-Tip:                     +$  75.00
+Tip:                      $  75.00
 ----------------------------------
-                         =$ 372.40
+Total:                    $ 372.40
+
 
 ```
 
