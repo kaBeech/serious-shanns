@@ -1,5 +1,5 @@
 # Serious Sans
-A legible monospaced font for folks who enjoy life. This font is a fork of [dtinth](https://github.com/dtinth)’s [Comic Mono](https://github.com/dtinth/comic-mono-font), which in turn is a fork of [Shannon Miwa](https://github.com/shannpersand)’s [Comic Shanns](https://github.com/shannpersand/comic-shanns) (version 1).
+A legible monospaced font for professionals who enjoy life. Comic Sans for hackers. This font is a fork of [dtinth](https://github.com/dtinth)’s [Comic Mono](https://github.com/dtinth/comic-mono-font), which in turn is a fork of [Shannon Miwa](https://github.com/shannpersand)’s [Comic Shanns](https://github.com/shannpersand/comic-shanns) (version 1).
 
 ## Download
 - [SeriousSans.ttf](https://github.com/kaBeech/serious-sans/SeriousSans.ttf)
