@@ -86,8 +86,7 @@ button {
 
 button,
 input {
-  padding-top: 0.3em;
-  /* padding: 0.1em; */
+  padding: 0.1em;
   align-self: center;
   font-family: inherit;
   font-size: 100%;
@@ -95,6 +94,11 @@ input {
   margin: 0;
   overflow: visible;
   text-transform: none;
+}
+
+button.serious,
+input.serious {
+  padding-top: 0.3em;
 }
 
 :link {

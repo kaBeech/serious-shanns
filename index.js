@@ -16,19 +16,40 @@ const seriousLightItalicButton = document.getElementById(
 const newExampleTextButton = document.getElementById("newExampleTextButton");
 const newExampleText = document.getElementById("newExampleText");
 
+const seriousButtons = [
+  seriousOriginalButton,
+  seriousItalicButton,
+  seriousBoldButton,
+  seriousBoldItalicButton,
+  seriousLightButton,
+  seriousLightItalicButton,
+];
+
 entirePageRadio.addEventListener("click", function () {
   if (this.checked) {
     mainClasses.add("serious");
+    for (seriousButton of seriousButtons) {
+      seriousButton.classList.add("serious");
+    }
   } else {
     mainClasses.remove("serious");
+    for (seriousButton of seriousButtons) {
+      seriousButton.classList.remove("serious");
+    }
   }
 });
 
 exampleTextOnlyRadio.addEventListener("click", function () {
   if (this.checked) {
     mainClasses.remove("serious");
+    for (seriousButton of seriousButtons) {
+      seriousButton.classList.remove("serious");
+    }
   } else {
     mainClasses.add("serious");
+    for (seriousButton of seriousButtons) {
+      seriousButton.classList.add("serious");
+    }
   }
 });
 
