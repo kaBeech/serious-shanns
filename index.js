@@ -25,157 +25,93 @@ const seriousButtons = [
   seriousLightItalicButton,
 ];
 
+const seriousStyles = [
+  "seriousOriginal",
+  "seriousItalic",
+  "seriousBold",
+  "seriousBoldItalic",
+  "seriousLight",
+  "seriousLightItalic",
+];
+
+const enterSeriousMode = () => {
+  mainClasses.add("serious");
+  for (seriousButton of seriousButtons) {
+    seriousButton.classList.add("serious");
+  }
+};
+
+const exitSeriousMode = () => {
+  mainClasses.remove("serious");
+  for (seriousButton of seriousButtons) {
+    seriousButton.classList.remove("serious");
+  }
+};
+
+const clearClasses = () => {
+  for (seriousStyle of seriousStyles) {
+    exampleTextClasses.remove(seriousStyle);
+    mainClasses.remove(seriousStyle);
+  }
+  for (seriousButton of seriousButtons) {
+    seriousButton.classList.remove("selected");
+  }
+};
+
+const clearClassesAndSelectThisButton = (button) => {
+  clearClasses();
+  button.classList.add("selected");
+};
+
 entirePageRadio.addEventListener("click", function () {
   if (this.checked) {
-    mainClasses.add("serious");
-    for (seriousButton of seriousButtons) {
-      seriousButton.classList.add("serious");
-    }
+    enterSeriousMode();
   } else {
-    mainClasses.remove("serious");
-    for (seriousButton of seriousButtons) {
-      seriousButton.classList.remove("serious");
-    }
+    exitSeriousMode();
   }
 });
 
 exampleTextOnlyRadio.addEventListener("click", function () {
   if (this.checked) {
-    mainClasses.remove("serious");
-    for (seriousButton of seriousButtons) {
-      seriousButton.classList.remove("serious");
-    }
+    exitSeriousMode();
   } else {
-    mainClasses.add("serious");
-    for (seriousButton of seriousButtons) {
-      seriousButton.classList.add("serious");
-    }
+    enterSeriousMode();
   }
 });
 
 seriousOriginalButton.addEventListener("click", function () {
-  this.classList.add("selected");
-  seriousItalicButton.classList.remove("selected");
-  seriousBoldButton.classList.remove("selected");
-  seriousBoldItalicButton.classList.remove("selected");
-  seriousLightButton.classList.remove("selected");
-  seriousLightItalicButton.classList.remove("selected");
+  clearClassesAndSelectThisButton(this);
   exampleTextClasses.add("seriousOriginal");
-  exampleTextClasses.remove("seriousItalic");
-  exampleTextClasses.remove("seriousBold");
-  exampleTextClasses.remove("seriousBoldItalic");
-  exampleTextClasses.remove("seriousLight");
-  exampleTextClasses.remove("seriousLightItalic");
   mainClasses.add("seriousOriginal");
-  mainClasses.remove("seriousItalic");
-  mainClasses.remove("seriousBold");
-  mainClasses.remove("seriousBoldItalic");
-  mainClasses.remove("seriousLight");
-  mainClasses.remove("seriousLightItalic");
 });
 
 seriousItalicButton.addEventListener("click", function () {
-  this.classList.add("selected");
-  seriousOriginalButton.classList.remove("selected");
-  seriousBoldButton.classList.remove("selected");
-  seriousBoldItalicButton.classList.remove("selected");
-  seriousLightButton.classList.remove("selected");
-  seriousLightItalicButton.classList.remove("selected");
-  exampleTextClasses.remove("seriousOriginal");
+  clearClassesAndSelectThisButton(this);
   exampleTextClasses.add("seriousItalic");
-  exampleTextClasses.remove("seriousBold");
-  exampleTextClasses.remove("seriousBoldItalic");
-  exampleTextClasses.remove("seriousLight");
-  exampleTextClasses.remove("seriousLightItalic");
-  mainClasses.remove("seriousOriginal");
   mainClasses.add("seriousItalic");
-  mainClasses.remove("seriousBold");
-  mainClasses.remove("seriousBoldItalic");
-  mainClasses.remove("seriousLight");
-  mainClasses.remove("seriousLightItalic");
 });
 
 seriousBoldButton.addEventListener("click", function () {
-  this.classList.add("selected");
-  seriousOriginalButton.classList.remove("selected");
-  seriousItalicButton.classList.remove("selected");
-  seriousBoldItalicButton.classList.remove("selected");
-  seriousLightButton.classList.remove("selected");
-  seriousLightItalicButton.classList.remove("selected");
-  exampleTextClasses.remove("seriousOriginal");
-  exampleTextClasses.remove("seriousItalic");
+  clearClassesAndSelectThisButton(this);
   exampleTextClasses.add("seriousBold");
-  exampleTextClasses.remove("seriousBoldItalic");
-  exampleTextClasses.remove("seriousLight");
-  exampleTextClasses.remove("seriousLightItalic");
-  mainClasses.remove("seriousOriginal");
-  mainClasses.remove("seriousItalic");
   mainClasses.add("seriousBold");
-  mainClasses.remove("seriousBoldItalic");
-  mainClasses.remove("seriousLight");
-  mainClasses.remove("seriousLightItalic");
 });
 
 seriousBoldItalicButton.addEventListener("click", function () {
-  this.classList.add("selected");
-  seriousOriginalButton.classList.remove("selected");
-  seriousItalicButton.classList.remove("selected");
-  seriousBoldButton.classList.remove("selected");
-  seriousLightButton.classList.remove("selected");
-  seriousLightItalicButton.classList.remove("selected");
-  exampleTextClasses.remove("seriousOriginal");
-  exampleTextClasses.remove("seriousItalic");
-  exampleTextClasses.remove("seriousBold");
+  clearClassesAndSelectThisButton(this);
   exampleTextClasses.add("seriousBoldItalic");
-  exampleTextClasses.remove("seriousLight");
-  exampleTextClasses.remove("seriousLightItalic");
-  mainClasses.remove("seriousOriginal");
-  mainClasses.remove("seriousItalic");
-  mainClasses.remove("seriousBold");
   mainClasses.add("seriousBoldItalic");
-  mainClasses.remove("seriousLight");
-  mainClasses.remove("seriousLightItalic");
 });
 
 seriousLightButton.addEventListener("click", function () {
-  this.classList.add("selected");
-  seriousOriginalButton.classList.remove("selected");
-  seriousItalicButton.classList.remove("selected");
-  seriousBoldButton.classList.remove("selected");
-  seriousBoldItalicButton.classList.remove("selected");
-  seriousLightItalicButton.classList.remove("selected");
-  exampleTextClasses.remove("seriousOriginal");
-  exampleTextClasses.remove("seriousItalic");
-  exampleTextClasses.remove("seriousBold");
-  exampleTextClasses.remove("seriousBoldItalic");
+  clearClassesAndSelectThisButton(this);
   exampleTextClasses.add("seriousLight");
-  exampleTextClasses.remove("seriousLightItalic");
-  mainClasses.remove("seriousOriginal");
-  mainClasses.remove("seriousItalic");
-  mainClasses.remove("seriousBold");
-  mainClasses.remove("seriousBoldItalic");
   mainClasses.add("seriousLight");
-  mainClasses.remove("seriousLightItalic");
 });
 
 seriousLightItalicButton.addEventListener("click", function () {
-  this.classList.add("selected");
-  seriousOriginalButton.classList.remove("selected");
-  seriousItalicButton.classList.remove("selected");
-  seriousBoldButton.classList.remove("selected");
-  seriousBoldItalicButton.classList.remove("selected");
-  seriousLightButton.classList.remove("selected");
-  exampleTextClasses.remove("seriousOriginal");
-  exampleTextClasses.remove("seriousItalic");
-  exampleTextClasses.remove("seriousBold");
-  exampleTextClasses.remove("seriousBoldItalic");
-  exampleTextClasses.remove("seriousLight");
+  clearClassesAndSelectThisButton(this);
   exampleTextClasses.add("seriousLightItalic");
-  mainClasses.remove("seriousOriginal");
-  mainClasses.remove("seriousItalic");
-  mainClasses.remove("seriousBold");
-  mainClasses.remove("seriousBoldItalic");
-  mainClasses.remove("seriousLight");
   mainClasses.add("seriousLightItalic");
 });
 
