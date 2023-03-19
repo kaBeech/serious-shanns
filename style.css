@@ -43,13 +43,14 @@
 }
 
 body {
+  line-height: 1.2em;
   background-color: #1e1e1e;
   color: #d4d4d4;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Serious Sans", system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 100%;
   font-size: 1.2rem;
   text-align: center;
@@ -81,11 +82,12 @@ li {
 }
 
 button {
-  width: 12em;
+  width: 16em;
 }
 
 button,
 input {
+  padding-top: 0.3em;
   align-self: center;
   font-family: inherit;
   font-size: 100%;
