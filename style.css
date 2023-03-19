@@ -80,10 +80,6 @@ li {
   vertical-align: baseline;
 }
 
-button {
-  width: 16em;
-}
-
 button,
 input {
   padding: 0.1em;
@@ -155,32 +151,31 @@ input.serious {
   font-family: "Serious Sans Light Italic";
 }
 
+.seriousButton {
+  padding-top: 0.3em;
+  width: 16em;
+}
+
 #seriousOriginalButton {
   font-family: "Serious Sans";
-  padding-top: 0.3em;
 }
 
 #seriousItalicButton {
   font-family: "Serious Sans Italic";
-  padding-top: 0.3em;
 }
 
 #seriousBoldButton {
   font-family: "Serious Sans Bold";
-  padding-top: 0.3em;
 }
 
 #seriousBoldItalicButton {
   font-family: "Serious Sans Bold Italic";
-  padding-top: 0.3em;
 }
 
 #seriousLightButton {
   font-family: "Serious Sans Light";
-  padding-top: 0.3em;
 }
 
 #seriousLightItalicButton {
   font-family: "Serious Sans Light Italic";
-  padding-top: 0.3em;
 }
