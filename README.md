@@ -56,7 +56,7 @@ and x-height seem to be off for some glyphs). I improved the x-height
 for the Light Italic style (where it was especially noticable) but I
 have not yet improved Light Original
 
-There are some horizontal alignment issues with t/T's and f/F's in the Italic styles
+There are some horizontal alignment issues with t/T's and f's in the Italic styles
 
 Please note that so far I have only been using the original SeriousSans.tff. The other styles have been reviewed but are largely untested
 
