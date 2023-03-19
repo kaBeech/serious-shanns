@@ -1,6 +1,6 @@
-const mainClassList = document.getElementById("main").classList;
 const exampleText = document.getElementById("exampleText");
 const exampleTextClassList = exampleText.classList;
+const mainClassList = document.getElementById("main").classList;
 const entirePageRadio = document.getElementById("entirePageRadio");
 const exampleTextOnlyRadio = document.getElementById("exampleTextOnlyRadio");
 const seriousOriginalButton = document.getElementById("seriousOriginalButton");
@@ -34,20 +34,6 @@ const seriousStyles = [
   "seriousLightItalic",
 ];
 
-const enterSeriousMode = () => {
-  mainClassList.add("serious");
-  for (seriousButton of seriousButtons) {
-    seriousButton.classList.add("serious");
-  }
-};
-
-const exitSeriousMode = () => {
-  mainClassList.remove("serious");
-  for (seriousButton of seriousButtons) {
-    seriousButton.classList.remove("serious");
-  }
-};
-
 const clearClasses = () => {
   for (seriousStyle of seriousStyles) {
     exampleTextClassList.remove(seriousStyle);
@@ -63,19 +49,17 @@ const clearClassesAndSelectThisButton = (button) => {
   button.classList.add("selected");
 };
 
-entirePageRadio.addEventListener("click", function () {
-  if (this.checked) {
-    enterSeriousMode();
-  } else {
-    exitSeriousMode();
+entirePageRadio.addEventListener("click", () => {
+  mainClassList.add("serious");
+  for (seriousButton of seriousButtons) {
+    seriousButton.classList.add("serious");
   }
 });
 
-exampleTextOnlyRadio.addEventListener("click", function () {
-  if (this.checked) {
-    exitSeriousMode();
-  } else {
-    enterSeriousMode();
+exampleTextOnlyRadio.addEventListener("click", () => {
+  mainClassList.remove("serious");
+  for (seriousButton of seriousButtons) {
+    seriousButton.classList.remove("serious");
   }
 });
 
@@ -115,12 +99,12 @@ seriousLightItalicButton.addEventListener("click", function () {
   mainClassList.add("seriousLightItalic");
 });
 
-newExampleText.addEventListener("keydown", function (event) {
+newExampleText.addEventListener("keydown", (event) => {
   if (event.code === "Enter") {
     exampleText.setHTML(newExampleText.value);
   }
 });
 
-newExampleTextButton.addEventListener("click", function () {
+newExampleTextButton.addEventListener("click", () => {
   exampleText.setHTML(newExampleText.value);
 });
