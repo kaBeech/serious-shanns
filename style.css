@@ -102,11 +102,13 @@ input.serious {
 }
 
 :link {
-  color: #70d0fe;
+  color: #3ec0aa;
+  text-decoration: none;
 }
 
 :visited {
-  color: #3ec0aa;
+  color: #70d0fe;
+  text-decoration: none;
 }
 
 .flex {
