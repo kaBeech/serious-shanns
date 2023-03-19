@@ -96,11 +96,11 @@ input {
 }
 
 :link {
-  color: aqua;
+  color: #70d0fe;
 }
 
 :visited {
-  color: rgb(0, 188, 138);
+  color: #3ec0aa;
 }
 
 .flex {
