@@ -1,6 +1,6 @@
-const mainClasses = document.getElementById("main").classList;
+const mainClassList = document.getElementById("main").classList;
 const exampleText = document.getElementById("exampleText");
-const exampleTextClasses = exampleText.classList;
+const exampleTextClassList = exampleText.classList;
 const entirePageRadio = document.getElementById("entirePageRadio");
 const exampleTextOnlyRadio = document.getElementById("exampleTextOnlyRadio");
 const seriousOriginalButton = document.getElementById("seriousOriginalButton");
@@ -35,14 +35,14 @@ const seriousStyles = [
 ];
 
 const enterSeriousMode = () => {
-  mainClasses.add("serious");
+  mainClassList.add("serious");
   for (seriousButton of seriousButtons) {
     seriousButton.classList.add("serious");
   }
 };
 
 const exitSeriousMode = () => {
-  mainClasses.remove("serious");
+  mainClassList.remove("serious");
   for (seriousButton of seriousButtons) {
     seriousButton.classList.remove("serious");
   }
@@ -50,8 +50,8 @@ const exitSeriousMode = () => {
 
 const clearClasses = () => {
   for (seriousStyle of seriousStyles) {
-    exampleTextClasses.remove(seriousStyle);
-    mainClasses.remove(seriousStyle);
+    exampleTextClassList.remove(seriousStyle);
+    mainClassList.remove(seriousStyle);
   }
   for (seriousButton of seriousButtons) {
     seriousButton.classList.remove("selected");
@@ -81,38 +81,38 @@ exampleTextOnlyRadio.addEventListener("click", function () {
 
 seriousOriginalButton.addEventListener("click", function () {
   clearClassesAndSelectThisButton(this);
-  exampleTextClasses.add("seriousOriginal");
-  mainClasses.add("seriousOriginal");
+  exampleTextClassList.add("seriousOriginal");
+  mainClassList.add("seriousOriginal");
 });
 
 seriousItalicButton.addEventListener("click", function () {
   clearClassesAndSelectThisButton(this);
-  exampleTextClasses.add("seriousItalic");
-  mainClasses.add("seriousItalic");
+  exampleTextClassList.add("seriousItalic");
+  mainClassList.add("seriousItalic");
 });
 
 seriousBoldButton.addEventListener("click", function () {
   clearClassesAndSelectThisButton(this);
-  exampleTextClasses.add("seriousBold");
-  mainClasses.add("seriousBold");
+  exampleTextClassList.add("seriousBold");
+  mainClassList.add("seriousBold");
 });
 
 seriousBoldItalicButton.addEventListener("click", function () {
   clearClassesAndSelectThisButton(this);
-  exampleTextClasses.add("seriousBoldItalic");
-  mainClasses.add("seriousBoldItalic");
+  exampleTextClassList.add("seriousBoldItalic");
+  mainClassList.add("seriousBoldItalic");
 });
 
 seriousLightButton.addEventListener("click", function () {
   clearClassesAndSelectThisButton(this);
-  exampleTextClasses.add("seriousLight");
-  mainClasses.add("seriousLight");
+  exampleTextClassList.add("seriousLight");
+  mainClassList.add("seriousLight");
 });
 
 seriousLightItalicButton.addEventListener("click", function () {
   clearClassesAndSelectThisButton(this);
-  exampleTextClasses.add("seriousLightItalic");
-  mainClasses.add("seriousLightItalic");
+  exampleTextClassList.add("seriousLightItalic");
+  mainClassList.add("seriousLightItalic");
 });
 
 newExampleText.addEventListener("keydown", function (event) {
