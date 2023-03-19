@@ -1,3 +1,4 @@
+const mainClasses = document.getElementById("main").classList;
 const exampleText = document.getElementById("exampleText");
 const exampleTextClasses = exampleText.classList;
 const seriousButton = document.getElementById("seriousButton");
@@ -26,6 +27,12 @@ seriousButton.addEventListener("click", function () {
   exampleTextClasses.remove("seriousBoldItalic");
   exampleTextClasses.remove("seriousLight");
   exampleTextClasses.remove("seriousLightItalic");
+  mainClasses.add("serious");
+  mainClasses.remove("seriousItalic");
+  mainClasses.remove("seriousBold");
+  mainClasses.remove("seriousBoldItalic");
+  mainClasses.remove("seriousLight");
+  mainClasses.remove("seriousLightItalic");
 });
 
 seriousItalicButton.addEventListener("click", function () {
@@ -41,6 +48,12 @@ seriousItalicButton.addEventListener("click", function () {
   exampleTextClasses.remove("seriousBoldItalic");
   exampleTextClasses.remove("seriousLight");
   exampleTextClasses.remove("seriousLightItalic");
+  mainClasses.remove("serious");
+  mainClasses.add("seriousItalic");
+  mainClasses.remove("seriousBold");
+  mainClasses.remove("seriousBoldItalic");
+  mainClasses.remove("seriousLight");
+  mainClasses.remove("seriousLightItalic");
 });
 
 seriousBoldButton.addEventListener("click", function () {
@@ -56,6 +69,12 @@ seriousBoldButton.addEventListener("click", function () {
   exampleTextClasses.remove("seriousBoldItalic");
   exampleTextClasses.remove("seriousLight");
   exampleTextClasses.remove("seriousLightItalic");
+  mainClasses.remove("serious");
+  mainClasses.remove("seriousItalic");
+  mainClasses.add("seriousBold");
+  mainClasses.remove("seriousBoldItalic");
+  mainClasses.remove("seriousLight");
+  mainClasses.remove("seriousLightItalic");
 });
 
 seriousBoldItalicButton.addEventListener("click", function () {
@@ -71,6 +90,12 @@ seriousBoldItalicButton.addEventListener("click", function () {
   exampleTextClasses.add("seriousBoldItalic");
   exampleTextClasses.remove("seriousLight");
   exampleTextClasses.remove("seriousLightItalic");
+  mainClasses.remove("serious");
+  mainClasses.remove("seriousItalic");
+  mainClasses.remove("seriousBold");
+  mainClasses.add("seriousBoldItalic");
+  mainClasses.remove("seriousLight");
+  mainClasses.remove("seriousLightItalic");
 });
 
 seriousLightButton.addEventListener("click", function () {
@@ -86,6 +111,12 @@ seriousLightButton.addEventListener("click", function () {
   exampleTextClasses.remove("seriousBoldItalic");
   exampleTextClasses.add("seriousLight");
   exampleTextClasses.remove("seriousLightItalic");
+  mainClasses.remove("serious");
+  mainClasses.remove("seriousItalic");
+  mainClasses.remove("seriousBold");
+  mainClasses.remove("seriousBoldItalic");
+  mainClasses.add("seriousLight");
+  mainClasses.remove("seriousLightItalic");
 });
 
 seriousLightItalicButton.addEventListener("click", function () {
@@ -101,6 +132,12 @@ seriousLightItalicButton.addEventListener("click", function () {
   exampleTextClasses.remove("seriousBoldItalic");
   exampleTextClasses.remove("seriousLight");
   exampleTextClasses.add("seriousLightItalic");
+  mainClasses.remove("serious");
+  mainClasses.remove("seriousItalic");
+  mainClasses.remove("seriousBold");
+  mainClasses.remove("seriousBoldItalic");
+  mainClasses.remove("seriousLight");
+  mainClasses.add("seriousLightItalic");
 });
 
 newExampleTextButton.addEventListener("click", function () {
