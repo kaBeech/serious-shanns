@@ -51,7 +51,7 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 ## Any issues?
 If you notice any, please feel free to open an issue!
 
-The Light weight version needs a little bit of refining (the x-height seems to be off for some glyphs). I improved it for the Light Italic stlye (where it was especially noticable) but I have not yet improved it for Light Original
+The Light weight version could use a little refining still (the x-height seems to be off for some glyphs). I improved it for the Light Italic stlye (where it was especially noticable) but I have not yet improved it for Light Original
 
 Please note that so far I have only been using the original SeriousSans.tff. The other styles have been reviewed but are largely untested
 
