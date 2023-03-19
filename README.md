@@ -9,26 +9,10 @@ This font is a fork of [dtinth](https://github.com/dtinth)’s [Comic Mono](http
 | --- | ----------- |
 | [SeriousSans.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSans.ttf)   | [SeriousSans.otf](https://kaBeech.github.io/serious-sans/blob/main/SeriousSans/otf/SeriousSans.otf)   |
 | [SeriousSansItalic.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansItalic.ttf) | [SeriousSansItalic.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansItalic.otf) |
-
-### TrueType Format
-[SeriousSans.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSans.ttf)  
-[SeriousSansItalic.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansItalic.ttf)
-
-[SeriousSansBold.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansBold.ttf)  
-[SeriousSansBoldItalic.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansBoldItalic.ttf)
-
-[SeriousSansLight.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansLight.ttf)  
-[SeriousSansLightItalic.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansLightItalic.ttf)
-
-### OpenType Format
-[SeriousSans.otf](https://kaBeech.github.io/serious-sans/blob/main/SeriousSans/otf/SeriousSans.otf)  
-[SeriousSansItalic.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansItalic.otf)
-
-[SeriousSansBold.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansBold.otf)  
-[SeriousSansBoldItalic.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansBoldItalic.otf)
-
-[SeriousSansLight.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansLight.otf)  
-[SeriousSansLightItalic.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansLightItalic.otf)
+| [SeriousSansBold.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansBold.ttf) | [SeriousSansBold.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansBold.otf) |
+| [SeriousSansBoldItalic.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansBoldItalic.ttf) | [SeriousSansBoldItalic.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansBoldItalic.otf) |
+| [SeriousSansLight.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansLight.ttf) | [SeriousSansLight.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansLight.otf) |
+| [SeriousSansLightItalic.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansLightItalic.ttf) | [SeriousSansLightItalic.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansLightItalic.otf) |
 
 ## What?
 Serious Sans is a legible monospaced font made to resemble the classic Comic Sans font we all know and love. It is designed to be suitable for use in a professional coding environment while retaining the playfulness of the original
