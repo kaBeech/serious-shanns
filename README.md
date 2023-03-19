@@ -6,7 +6,7 @@ This font is a fork of [dtinth](https://github.com/dtinth)’s [Comic Mono](http
 ## Downloads
 
 | TrueType Format | OpenType Format |
-| --- | ----------- |
+| :---: | :-----------: |
 | [SeriousSans.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSans.ttf)   | [SeriousSans.otf](https://kaBeech.github.io/serious-sans/blob/main/SeriousSans/otf/SeriousSans.otf)   |
 | [SeriousSansItalic.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansItalic.ttf) | [SeriousSansItalic.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansItalic.otf) |
 | [SeriousSansBold.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansBold.ttf) | [SeriousSansBold.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansBold.otf) |
