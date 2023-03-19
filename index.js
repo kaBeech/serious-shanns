@@ -115,6 +115,12 @@ seriousLightItalicButton.addEventListener("click", function () {
   mainClasses.add("seriousLightItalic");
 });
 
+newExampleText.addEventListener("keydown", function (event) {
+  if (event.code === "Enter") {
+    exampleText.setHTML(newExampleText.value);
+  }
+});
+
 newExampleTextButton.addEventListener("click", function () {
   exampleText.setHTML(newExampleText.value);
 });
