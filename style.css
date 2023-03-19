@@ -94,6 +94,9 @@ input {
   margin: 0;
   overflow: visible;
   text-transform: none;
+  background-color: #d4d4d4;
+  color: #1e1e1e;
+  border-radius: 0;
 }
 
 button.serious,
