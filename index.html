@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <div id="main">
+    <div id="main" class="seriousOriginal">
       <h1>Serious Sans</h1>
       <p>
         A legible monospace font for playful professionals. Comic Sans for
@@ -25,7 +25,7 @@
         (version 1)
       </p>
       <h2>Example Text</h2>
-      <div id="exampleText" class="serious">
+      <div id="exampleText" class="serious seriousOriginal">
         <p>The five tall boxing wizards jump quickly.</p>
         <p>THE FIVE TALL BOXING WIZARDS JUMP QUICKLY!</p>
         <p>0123456789.:,;(*!?')</p>
@@ -33,7 +33,7 @@
       <br />
       <div id="previewButtons">
         <div class="flex column">
-          <button id="seriousButton">Serious Sans</button>
+          <button id="seriousOriginalButton">Serious Sans</button>
           <button id="seriousBoldButton">Serious Sans Bold</button>
           <button id="seriousLightButton">Serious Sans Light</button>
         </div>
@@ -48,10 +48,21 @@
       <br />
       <form>
         Apply to
-        <label for="entirePage">entire page:</label>
-        <input type="radio" name="applyTo" id="entirePage" />
-        <label for="newExampleTextButton">example text only:</label>
-        <input type="radio" name="applyTo" id="exampleTextOnly" />
+        <label for="entirePageRadio">entire page:</label>
+        <input
+          type="radio"
+          name="applyTo"
+          id="entirePageRadio"
+          value="entirePage"
+        />
+        <label for="exampleTextOnlyRadio">example text only:</label>
+        <input
+          type="radio"
+          name="applyTo"
+          id="exampleTextOnlyRadio"
+          value="exampleTextOnly"
+          checked
+        />
       </form>
       <br />
       <form>

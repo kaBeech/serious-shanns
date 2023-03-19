@@ -1,7 +1,9 @@
 const mainClasses = document.getElementById("main").classList;
 const exampleText = document.getElementById("exampleText");
 const exampleTextClasses = exampleText.classList;
-const seriousButton = document.getElementById("seriousButton");
+const entirePageRadio = document.getElementById("entirePageRadio");
+const exampleTextOnlyRadio = document.getElementById("exampleTextOnlyRadio");
+const seriousOriginalButton = document.getElementById("seriousOriginalButton");
 const seriousItalicButton = document.getElementById("seriousItalicButton");
 const seriousBoldButton = document.getElementById("seriousBoldButton");
 const seriousBoldItalicButton = document.getElementById(
@@ -14,20 +16,36 @@ const seriousLightItalicButton = document.getElementById(
 const newExampleTextButton = document.getElementById("newExampleTextButton");
 const newExampleText = document.getElementById("newExampleText");
 
-seriousButton.addEventListener("click", function () {
+entirePageRadio.addEventListener("click", function () {
+  if (this.checked) {
+    mainClasses.add("serious");
+  } else {
+    mainClasses.remove("serious");
+  }
+});
+
+exampleTextOnlyRadio.addEventListener("click", function () {
+  if (this.checked) {
+    mainClasses.remove("serious");
+  } else {
+    mainClasses.add("serious");
+  }
+});
+
+seriousOriginalButton.addEventListener("click", function () {
   this.classList.add("selected");
   seriousItalicButton.classList.remove("selected");
   seriousBoldButton.classList.remove("selected");
   seriousBoldItalicButton.classList.remove("selected");
   seriousLightButton.classList.remove("selected");
   seriousLightItalicButton.classList.remove("selected");
-  exampleTextClasses.add("serious");
+  exampleTextClasses.add("seriousOriginal");
   exampleTextClasses.remove("seriousItalic");
   exampleTextClasses.remove("seriousBold");
   exampleTextClasses.remove("seriousBoldItalic");
   exampleTextClasses.remove("seriousLight");
   exampleTextClasses.remove("seriousLightItalic");
-  mainClasses.add("serious");
+  mainClasses.add("seriousOriginal");
   mainClasses.remove("seriousItalic");
   mainClasses.remove("seriousBold");
   mainClasses.remove("seriousBoldItalic");
@@ -37,18 +55,18 @@ seriousButton.addEventListener("click", function () {
 
 seriousItalicButton.addEventListener("click", function () {
   this.classList.add("selected");
-  seriousButton.classList.remove("selected");
+  seriousOriginalButton.classList.remove("selected");
   seriousBoldButton.classList.remove("selected");
   seriousBoldItalicButton.classList.remove("selected");
   seriousLightButton.classList.remove("selected");
   seriousLightItalicButton.classList.remove("selected");
-  exampleTextClasses.remove("serious");
+  exampleTextClasses.remove("seriousOriginal");
   exampleTextClasses.add("seriousItalic");
   exampleTextClasses.remove("seriousBold");
   exampleTextClasses.remove("seriousBoldItalic");
   exampleTextClasses.remove("seriousLight");
   exampleTextClasses.remove("seriousLightItalic");
-  mainClasses.remove("serious");
+  mainClasses.remove("seriousOriginal");
   mainClasses.add("seriousItalic");
   mainClasses.remove("seriousBold");
   mainClasses.remove("seriousBoldItalic");
@@ -58,18 +76,18 @@ seriousItalicButton.addEventListener("click", function () {
 
 seriousBoldButton.addEventListener("click", function () {
   this.classList.add("selected");
-  seriousButton.classList.remove("selected");
+  seriousOriginalButton.classList.remove("selected");
   seriousItalicButton.classList.remove("selected");
   seriousBoldItalicButton.classList.remove("selected");
   seriousLightButton.classList.remove("selected");
   seriousLightItalicButton.classList.remove("selected");
-  exampleTextClasses.remove("serious");
+  exampleTextClasses.remove("seriousOriginal");
   exampleTextClasses.remove("seriousItalic");
   exampleTextClasses.add("seriousBold");
   exampleTextClasses.remove("seriousBoldItalic");
   exampleTextClasses.remove("seriousLight");
   exampleTextClasses.remove("seriousLightItalic");
-  mainClasses.remove("serious");
+  mainClasses.remove("seriousOriginal");
   mainClasses.remove("seriousItalic");
   mainClasses.add("seriousBold");
   mainClasses.remove("seriousBoldItalic");
@@ -79,18 +97,18 @@ seriousBoldButton.addEventListener("click", function () {
 
 seriousBoldItalicButton.addEventListener("click", function () {
   this.classList.add("selected");
-  seriousButton.classList.remove("selected");
+  seriousOriginalButton.classList.remove("selected");
   seriousItalicButton.classList.remove("selected");
   seriousBoldButton.classList.remove("selected");
   seriousLightButton.classList.remove("selected");
   seriousLightItalicButton.classList.remove("selected");
-  exampleTextClasses.remove("serious");
+  exampleTextClasses.remove("seriousOriginal");
   exampleTextClasses.remove("seriousItalic");
   exampleTextClasses.remove("seriousBold");
   exampleTextClasses.add("seriousBoldItalic");
   exampleTextClasses.remove("seriousLight");
   exampleTextClasses.remove("seriousLightItalic");
-  mainClasses.remove("serious");
+  mainClasses.remove("seriousOriginal");
   mainClasses.remove("seriousItalic");
   mainClasses.remove("seriousBold");
   mainClasses.add("seriousBoldItalic");
@@ -100,18 +118,18 @@ seriousBoldItalicButton.addEventListener("click", function () {
 
 seriousLightButton.addEventListener("click", function () {
   this.classList.add("selected");
-  seriousButton.classList.remove("selected");
+  seriousOriginalButton.classList.remove("selected");
   seriousItalicButton.classList.remove("selected");
   seriousBoldButton.classList.remove("selected");
   seriousBoldItalicButton.classList.remove("selected");
   seriousLightItalicButton.classList.remove("selected");
-  exampleTextClasses.remove("serious");
+  exampleTextClasses.remove("seriousOriginal");
   exampleTextClasses.remove("seriousItalic");
   exampleTextClasses.remove("seriousBold");
   exampleTextClasses.remove("seriousBoldItalic");
   exampleTextClasses.add("seriousLight");
   exampleTextClasses.remove("seriousLightItalic");
-  mainClasses.remove("serious");
+  mainClasses.remove("seriousOriginal");
   mainClasses.remove("seriousItalic");
   mainClasses.remove("seriousBold");
   mainClasses.remove("seriousBoldItalic");
@@ -121,18 +139,18 @@ seriousLightButton.addEventListener("click", function () {
 
 seriousLightItalicButton.addEventListener("click", function () {
   this.classList.add("selected");
-  seriousButton.classList.remove("selected");
+  seriousOriginalButton.classList.remove("selected");
   seriousItalicButton.classList.remove("selected");
   seriousBoldButton.classList.remove("selected");
   seriousBoldItalicButton.classList.remove("selected");
   seriousLightButton.classList.remove("selected");
-  exampleTextClasses.remove("serious");
+  exampleTextClasses.remove("seriousOriginal");
   exampleTextClasses.remove("seriousItalic");
   exampleTextClasses.remove("seriousBold");
   exampleTextClasses.remove("seriousBoldItalic");
   exampleTextClasses.remove("seriousLight");
   exampleTextClasses.add("seriousLightItalic");
-  mainClasses.remove("serious");
+  mainClasses.remove("seriousOriginal");
   mainClasses.remove("seriousItalic");
   mainClasses.remove("seriousBold");
   mainClasses.remove("seriousBoldItalic");

@@ -59,7 +59,6 @@ body {
 #main {
   display: flex;
   flex-direction: column;
-  padding: 0 1em;
 }
 
 ul,
@@ -88,6 +87,7 @@ button {
 button,
 input {
   padding-top: 0.3em;
+  /* padding: 0.1em; */
   align-self: center;
   font-family: inherit;
   font-size: 100%;
@@ -118,26 +118,26 @@ input {
   color: #d4d4d4;
 }
 
-.serious {
+.serious.seriousOriginal {
   font-family: "Serious Sans";
 }
 
-.seriousItalic {
+.serious.seriousItalic {
   font-family: "Serious Sans Italic";
 }
 
-.seriousBold {
+.serious.seriousBold {
   font-family: "Serious Sans Bold";
 }
 
-.seriousBoldItalic {
+.serious.seriousBoldItalic {
   font-family: "Serious Sans Bold Italic";
 }
 
-.seriousLight {
+.serious.seriousLight {
   font-family: "Serious Sans Light";
 }
 
-.seriousLightItalic {
+.serious.seriousLightItalic {
   font-family: "Serious Sans Light Italic";
 }
