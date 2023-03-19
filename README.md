@@ -48,8 +48,6 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 3. I added Italic styles for each weight style
 4. I added OpenType format versions
 
-- Note: you can ignore the generate.py file - it generates the original Comic Mono font. I haven't decided yet if I'm going to modify or remove it
-
 ## Any issues?
 If you notice any, please feel free to open an issue!
 
