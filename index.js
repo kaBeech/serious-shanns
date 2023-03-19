@@ -13,10 +13,10 @@ const seriousLightButton = document.getElementById("seriousLightButton");
 const seriousLightItalicButton = document.getElementById(
   "seriousLightItalicButton"
 );
-const newExampleText = document.getElementById("newExampleText");
+const newExampleTextInput = document.getElementById("newExampleTextInput");
 const newExampleTextButton = document.getElementById("newExampleTextButton");
 
-const buttons = [
+const seriousElements = [
   seriousOriginalButton,
   seriousItalicButton,
   seriousBoldButton,
@@ -24,6 +24,7 @@ const buttons = [
   seriousLightButton,
   seriousLightItalicButton,
   newExampleTextButton,
+  newExampleTextInput,
 ];
 
 const seriousStyles = [
@@ -40,8 +41,8 @@ const clearClasses = () => {
     exampleTextClassList.remove(seriousStyle);
     mainClassList.remove(seriousStyle);
   }
-  for (seriousButton of buttons) {
-    seriousButton.classList.remove("selected");
+  for (seriousElement of seriousElements) {
+    seriousElement.classList.remove("selected");
   }
 };
 
@@ -52,15 +53,15 @@ const clearClassesAndSelectThisButton = (button) => {
 
 entirePageRadio.addEventListener("click", () => {
   mainClassList.add("serious");
-  for (seriousButton of buttons) {
-    seriousButton.classList.add("serious");
+  for (seriousElement of seriousElements) {
+    seriousElement.classList.add("serious");
   }
 });
 
 exampleTextOnlyRadio.addEventListener("click", () => {
   mainClassList.remove("serious");
-  for (seriousButton of buttons) {
-    seriousButton.classList.remove("serious");
+  for (seriousElement of seriousElements) {
+    seriousElement.classList.remove("serious");
   }
 });
 
@@ -100,12 +101,12 @@ seriousLightItalicButton.addEventListener("click", function () {
   mainClassList.add("seriousLightItalic");
 });
 
-newExampleText.addEventListener("keydown", (event) => {
+newExampleTextInput.addEventListener("keydown", (event) => {
   if (event.code === "Enter") {
-    exampleText.setHTML(newExampleText.value);
+    exampleText.setHTML(newExampleTextInput.value);
   }
 });
 
 newExampleTextButton.addEventListener("click", () => {
-  exampleText.setHTML(newExampleText.value);
+  exampleText.setHTML(newExampleTextInput.value);
 });

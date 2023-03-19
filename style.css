@@ -127,6 +127,10 @@ input.serious {
   color: #d4d4d4;
 }
 
+.serious#newExampleTextInput {
+  height: 1.15em;
+}
+
 .serious.seriousOriginal {
   font-family: "Serious Sans";
 }
