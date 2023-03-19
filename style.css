@@ -123,8 +123,12 @@ input.serious {
   color: #d4d4d4;
 }
 
+#newExampleTextButton {
+  width: fit-content;
+}
+
 #newExampleTextInput {
-  width: 16em;
+  width: 14em;
 }
 
 .serious#newExampleTextInput {
