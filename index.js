@@ -103,10 +103,10 @@ seriousLightItalicButton.addEventListener("click", function () {
 
 newExampleTextInput.addEventListener("keydown", (event) => {
   if (event.code === "Enter") {
-    exampleText.setHTML(newExampleTextInput.value);
+    exampleText.textContent = newExampleTextInput.value;
   }
 });
 
 newExampleTextButton.addEventListener("click", () => {
-  exampleText.setHTML(newExampleTextInput.value);
+  exampleText.textContent = newExampleTextInput.value;
 });
