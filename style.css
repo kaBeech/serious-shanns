@@ -123,6 +123,10 @@ input.serious {
   color: #d4d4d4;
 }
 
+#newExampleTextInput {
+  width: 16em;
+}
+
 .serious#newExampleTextInput {
   height: 1.15em;
 }
