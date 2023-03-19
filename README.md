@@ -56,7 +56,7 @@ The Light weight version could use a little refining still (the x-height seems t
 Please note that so far I have only been using the original SeriousSans.tff. The other styles have been reviewed but are largely untested
 
 ## License
-Serious Sans is licensed under the [MIT License](LICENSE).
+Serious Sans is licensed under the [MIT License](LICENSE)
 
 ## Disclaimer
 Please note that this font is in no way affiliated with the delightful [Serious Sans Pro](https://www.myfonts.com/collections/serious-sans-pro-font-ogentroost) font. I just like classic PC games ^_^
