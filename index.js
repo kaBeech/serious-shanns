@@ -13,16 +13,17 @@ const seriousLightButton = document.getElementById("seriousLightButton");
 const seriousLightItalicButton = document.getElementById(
   "seriousLightItalicButton"
 );
-const newExampleTextButton = document.getElementById("newExampleTextButton");
 const newExampleText = document.getElementById("newExampleText");
+const newExampleTextButton = document.getElementById("newExampleTextButton");
 
-const seriousButtons = [
+const buttons = [
   seriousOriginalButton,
   seriousItalicButton,
   seriousBoldButton,
   seriousBoldItalicButton,
   seriousLightButton,
   seriousLightItalicButton,
+  newExampleTextButton,
 ];
 
 const seriousStyles = [
@@ -39,7 +40,7 @@ const clearClasses = () => {
     exampleTextClassList.remove(seriousStyle);
     mainClassList.remove(seriousStyle);
   }
-  for (seriousButton of seriousButtons) {
+  for (seriousButton of buttons) {
     seriousButton.classList.remove("selected");
   }
 };
@@ -51,14 +52,14 @@ const clearClassesAndSelectThisButton = (button) => {
 
 entirePageRadio.addEventListener("click", () => {
   mainClassList.add("serious");
-  for (seriousButton of seriousButtons) {
+  for (seriousButton of buttons) {
     seriousButton.classList.add("serious");
   }
 });
 
 exampleTextOnlyRadio.addEventListener("click", () => {
   mainClassList.remove("serious");
-  for (seriousButton of seriousButtons) {
+  for (seriousButton of buttons) {
     seriousButton.classList.remove("serious");
   }
 });

@@ -86,7 +86,7 @@ button {
 
 button,
 input {
-  padding-top: 0.3em;
+  padding: 0.1em;
   align-self: center;
   font-family: inherit;
   font-size: 100%;
@@ -94,6 +94,11 @@ input {
   margin: 0;
   overflow: visible;
   text-transform: none;
+}
+
+button.serious,
+input.serious {
+  padding-top: 0.3em;
 }
 
 :link {
@@ -145,24 +150,30 @@ input {
 
 #seriousOriginalButton {
   font-family: "Serious Sans";
+  padding-top: 0.3em;
 }
 
 #seriousItalicButton {
   font-family: "Serious Sans Italic";
+  padding-top: 0.3em;
 }
 
 #seriousBoldButton {
   font-family: "Serious Sans Bold";
+  padding-top: 0.3em;
 }
 
 #seriousBoldItalicButton {
   font-family: "Serious Sans Bold Italic";
+  padding-top: 0.3em;
 }
 
 #seriousLightButton {
   font-family: "Serious Sans Light";
+  padding-top: 0.3em;
 }
 
 #seriousLightItalicButton {
   font-family: "Serious Sans Light Italic";
+  padding-top: 0.3em;
 }
