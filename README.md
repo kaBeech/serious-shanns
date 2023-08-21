@@ -19,7 +19,7 @@ Serious Sans is a legible monospaced font made to resemble the classic Comic San
 
 **If you'd like to enter your own example text and preview all six styles, [check out the Serious Sans webpage](https://kaBeech.github.io/serious-sans)**
 
-Here's what it looks like viewing one of [my Advent Of Code functions](https://kaBeech.github.io/Advent-Of-Code-2022) in VS Code:
+Here's what it looks like viewing one of [my Advent Of Code functions](https://kaBeech.github.io/Advent-Of-Code) in VS Code:
 
 ![Serious Sans in VS Code](https://kaBeech.github.io/serious-sans/vscExample.png "Serious Sans in VS Code")
 
