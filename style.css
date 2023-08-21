@@ -49,7 +49,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+  font-family: "Serious Sans", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 100%;
   font-size: 1.2rem;
