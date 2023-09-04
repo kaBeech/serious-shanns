@@ -65,8 +65,6 @@ have not yet improved Light Original
 
 There are some horizontal alignment issues with t/T's and f's in the Italic styles
 
-Please note that so far I have only been using the original SeriousSans.tff. The other styles have been reviewed but are largely untested
-
 ## License
 
 Serious Sans is licensed under the [MIT License](LICENSE)
