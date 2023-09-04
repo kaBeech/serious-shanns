@@ -47,7 +47,7 @@ Without a monospaced font, getting all those numbers to line up for easy adding 
 
 I originally changed the font in my IDE to Comic Mono as a joke. I decided to leave it that way for a while for fun, and found that it actually seems to help my mindset while working. I made Serious Sans as my own leetle fork to improve the usability of the font ^\_^
 
-## Differences from Comic Mono/Comic Shanns
+## Differences from Comic Shanns/Comic Mono
 
 1. I edited the 'a' to make it look less like an 'o'
 2. I remade the Bold weight style and added a Light weight style as well
