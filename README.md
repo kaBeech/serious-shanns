@@ -53,6 +53,10 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 2. I remade the Bold weight style and added a Light weight style as well
 3. I added Italic styles for each weight style
 
+## Update 2023-09
+
+- Adds [Nerd Font](https://www.nerdfonts.com/) patch
+
 ## Any issues?
 
 If you notice any, please feel free to open an issue!
