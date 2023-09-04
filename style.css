@@ -32,7 +32,7 @@
   #main {
     max-width: 70%;
   }
-  #downloads {
+  .twoColumnsIfFits {
     display: flex;
     justify-content: space-evenly;
   }
