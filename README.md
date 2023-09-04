@@ -15,6 +15,11 @@ This font is a fork of [dtinth](https://github.com/dtinth)'s [Comic Mono](https:
 |       [SeriousSansLight.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansLight.ttf)       |       [SeriousSansLight.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansLight.otf)       |
 | [SeriousSansLightItalic.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansLightItalic.ttf) | [SeriousSansLightItalic.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansLightItalic.otf) |
 
+| [Nerd Font](https://www.nerdfonts.com/) |
+| :-------------------------------------: |
+
+| [SeriousSansNerd.otf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansNerd.otf) |
+
 ## What?
 
 Serious Sans is a legible monospaced font made to resemble the classic Comic Sans font we all know and love. It is designed to be suitable for use in a professional coding environment while retaining the playfulness of the original
