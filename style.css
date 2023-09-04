@@ -130,6 +130,14 @@ input.serious {
   color: #d4d4d4;
 }
 
+.mobileShow {
+  display: none;
+
+  @media (max-width: 440px) {
+    display: block;
+  }
+}
+
 #newExampleTextButton {
   width: fit-content;
 }
