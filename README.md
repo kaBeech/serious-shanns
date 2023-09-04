@@ -6,19 +6,14 @@ This font is a fork of [dtinth](https://github.com/dtinth)'s [Comic Mono](https:
 
 ## Downloads
 
-|                                                 TrueType Format                                                 |                                                 OpenType Format                                                 |
-| :-------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: |
-|            [SeriousSans.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSans.ttf)            |            [SeriousSans.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSans.otf)            |
+|                                                 TrueType Format                                                 |                                                 OpenType Format                                                 |                              [Nerd Font](https://www.nerdfonts.com/)                              |
+| :-------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: |
+|            [SeriousSans.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSans.ttf)            |            [SeriousSans.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSans.otf)            | [SeriousSansNerd.otf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansNerd.otf) |
 |      [SeriousSansItalic.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansItalic.ttf)      |      [SeriousSansItalic.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansItalic.otf)      |
 |        [SeriousSansBold.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansBold.ttf)        |        [SeriousSansBold.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansBold.otf)        |
 |  [SeriousSansBoldItalic.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansBoldItalic.ttf)  |  [SeriousSansBoldItalic.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansBoldItalic.otf)  |
 |       [SeriousSansLight.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansLight.ttf)       |       [SeriousSansLight.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansLight.otf)       |
 | [SeriousSansLightItalic.ttf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansLightItalic.ttf) | [SeriousSansLightItalic.otf](https://kaBeech.github.io/serious-sans/SeriousSans/otf/SeriousSansLightItalic.otf) |
-
-| [Nerd Font](https://www.nerdfonts.com/) |
-| :-------------------------------------: |
-
-| [SeriousSansNerd.otf](https://kaBeech.github.io/serious-sans/SeriousSans/ttf/SeriousSansNerd.otf) |
 
 ## What?
 
