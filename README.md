@@ -49,9 +49,9 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 
 ## Differences from Comic Shanns/Comic Mono
 
-1. I edited the 'a' to make it look less like an 'o'
-2. I remade the Bold weight style and added a Light weight style as well
-3. I added Italic styles for each weight style
+- Edits the 'a' to make it look less like an 'o'
+- Remakes the Bold weight style and adds a Light weight style as well
+- Adds Italic styles for each weight style
 
 ## Update 2023-09
 
