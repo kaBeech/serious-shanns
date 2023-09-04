@@ -25,6 +25,10 @@ Here's what it looks like viewing one of [my Advent Of Code functions](https://g
 
 ![Serious Sans in VS Code](https://kaBeech.github.io/serious-sans/vscExample.png "Serious Sans in VS Code")
 
+Here it is in the terminal, showing off the fancy Nerd Font symbols:
+
+![Serious Sans Nerd Font in a terminal emulator](https://kaBeech.github.io/serious-sans/nerdFontExample.png "Serious Sans in VS Code")
+
 ## Why?
 
 To help overcome writer's block, some writers change the font of their word processor to Comic Sans. Perhaps the jaunty style helps put our brains in a playful mood so we can just write without getting hung up in self-criticism
