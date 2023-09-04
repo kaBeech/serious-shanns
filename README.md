@@ -27,7 +27,7 @@ Here's what it looks like viewing one of [my Advent Of Code functions](https://g
 
 Here it is in the terminal, showing off the fancy Nerd Font symbols:
 
-![Serious Sans Nerd Font in a terminal emulator](https://kaBeech.github.io/serious-sans/nerdFontExample.png "Serious Sans in VS Code")
+![Serious Sans Nerd Font in a terminal emulator](https://kaBeech.github.io/serious-sans/nerdFontExample.png "Serious Sans in Kitty with Starship")
 
 ## Why?
 
