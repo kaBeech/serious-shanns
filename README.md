@@ -54,12 +54,17 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 ## Differences from Comic Shanns/Comic Mono
 
 - Edits the 'a' to make it look less like an 'o'
+- Edits the 'l' to make it look less like a '1'
 - Remakes the Bold weight style and adds a Light weight style as well
 - Adds Italic styles for each weight style
 
-## Update 2023-09
+## Update 2023-09 | v1.1.0
 
 - Adds [Nerd Font](https://www.nerdfonts.com/) patch
+
+## Update 2024-06 | v2.0.0
+
+- Updates the 'l' glyph
 
 ## Any issues?
 
