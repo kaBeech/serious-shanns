@@ -66,6 +66,10 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 
 - Updates the 'l' glyph
 
+## Update 2024-06 | v2.0.1
+
+- Updates the 'l' glyph to make it look less like 'L'
+
 ## Any issues?
 
 If you notice any, please feel free to open an issue!
