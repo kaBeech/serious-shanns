@@ -60,17 +60,25 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 
 ## Changelog
 
-### Update 2023-09 | v1.1.0
+### v1.0.0 | 2023-03-17
+
+- Initial release
+
+### v1.1.0 | 2023-09-04
 
 - Adds [Nerd Font](https://www.nerdfonts.com/) patch
 
-### Update 2024-06 | v2.0.0
+### v2.0.0 | 2024-06-03
 
 - Updates the 'l' glyph
 
-### Update 2024-06 | v2.0.1
+### v2.0.1 | 2024-06-04
 
 - Updates the 'l' glyph to make it look less like 'L'
+
+### v2.0.2 | 2024-06-05
+
+- Updates the 'l' glyph's tail and kerning
 
 ## Any issues?
 
