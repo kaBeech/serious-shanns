@@ -58,13 +58,19 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 - Remakes the Bold weight style and adds a Light weight style as well
 - Adds Italic styles for each weight style
 
-## Update 2023-09 | v1.1.0
+## Changelog
+
+### Update 2023-09 | v1.1.0
 
 - Adds [Nerd Font](https://www.nerdfonts.com/) patch
 
-## Update 2024-06 | v2.0.0
+### Update 2024-06 | v2.0.0
 
 - Updates the 'l' glyph
+
+### Update 2024-06 | v2.0.1
+
+- Updates the 'l' glyph to make it look less like 'L'
 
 ## Any issues?
 
