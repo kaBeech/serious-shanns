@@ -100,6 +100,10 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 
 - Updates metadata
 
+### v3.0.1 | 2024-06-05
+
+- Adjusts alignment of the 'l' glyph in .otf versions
+
 ## Any issues?
 
 If you notice any, please feel free to open an issue!
