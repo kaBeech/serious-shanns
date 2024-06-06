@@ -1,31 +1,31 @@
 @font-face {
   font-family: "Serious Sans";
-  src: url("./SeriousSans/ttf/SeriousSans-Regular.ttf");
+  src: url("./SeriousSans/otf/SeriousSans-Regular.otf");
 }
 
 @font-face {
   font-family: "Serious Sans Italic";
-  src: url("./SeriousSans/ttf/SeriousSans-Italic.ttf");
+  src: url("./SeriousSans/otf/SeriousSans-Italic.otf");
 }
 
 @font-face {
   font-family: "Serious Sans Bold";
-  src: url("./SeriousSans/ttf/SeriousSans-Bold.ttf");
+  src: url("./SeriousSans/otf/SeriousSans-Bold.otf");
 }
 
 @font-face {
   font-family: "Serious Sans Bold Italic";
-  src: url("./SeriousSans/ttf/SeriousSans-BoldItalic.ttf");
+  src: url("./SeriousSans/otf/SeriousSans-BoldItalic.otf");
 }
 
 @font-face {
   font-family: "Serious Sans Light";
-  src: url("./SeriousSans/ttf/SeriousSans-Light.ttf");
+  src: url("./SeriousSans/otf/SeriousSans-Light.otf");
 }
 
 @font-face {
   font-family: "Serious Sans Light Italic";
-  src: url("./SeriousSans/ttf/SeriousSans-LightItalic.ttf");
+  src: url("./SeriousSans/otf/SeriousSans-LightItalic.otf");
 }
 
 @media (min-width: 440px) {
