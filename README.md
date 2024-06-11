@@ -108,6 +108,8 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 
 ### v4.0.0 | 2024-06-11
 
+- Updates the font name
+
 - Edits the 'Y' to make it look less like a 'y'
 
 - Adds 'λ'
@@ -128,6 +130,12 @@ for the Light Italic style (where it was especially noticable) but I
 have not yet improved Light Original
 
 There are some horizontal alignment issues with t/T's and f's in the Italic styles
+
+## See Also
+
+[Comic Shanns Mono](https://github.com/jesusmgg/comic-shanns-mono) is another 
+fork of Comic Shanns. If you need more characters and don't need the glyph 
+changes and extended styles, it might be the right choice for you!
 
 ## License
 
