@@ -61,11 +61,13 @@ Without a monospaced font, getting all those numbers to line up for easy adding 
 
 I originally changed the font in my IDE to Comic Mono as a joke. I decided to leave it that way for a while for fun, and found that it actually seems to help my mindset while working. I made Serious Sans as my own leetle fork to improve the usability of the font ^\_^
 
-## Differences from Comic Shanns/Comic Mono
+## Differences from Comic Mono
 
 - Edits the 'a' to make it look less like an 'o'
 - Edits the 'l' to make it look less like a '1'
-- Remakes the Bold weight style and adds a Light weight style as well
+- Edits the 'Y' to make it look less like a 'y'
+- Adds 'λ'
+- Adds a Light weight style
 - Adds Italic styles for each weight style
 
 ## Changelog
@@ -103,6 +105,18 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 ### v3.0.1 | 2024-06-05
 
 - Adjusts alignment of the 'l' glyph in .otf versions
+
+### v4.0.0 | 2024-06-11
+
+- Edits the 'Y' to make it look less like a 'y'
+
+- Adds 'λ'
+
+- Removes TrueType versions
+
+- Fixes self-intersections
+
+- Adds points at extremata
 
 ## Any issues?
 
