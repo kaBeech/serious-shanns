@@ -1,31 +1,31 @@
 @font-face {
-  font-family: "Serious Sans";
-  src: url("./SeriousSans/otf/SeriousSans-Regular.otf");
+  font-family: "Serious Shanns";
+  src: url("./SeriousShanns/otf/SeriousShanns-Regular.otf");
 }
 
 @font-face {
-  font-family: "Serious Sans Italic";
-  src: url("./SeriousSans/otf/SeriousSans-Italic.otf");
+  font-family: "Serious Shanns Italic";
+  src: url("./SeriousShanns/otf/SeriousShanns-Italic.otf");
 }
 
 @font-face {
-  font-family: "Serious Sans Bold";
-  src: url("./SeriousSans/otf/SeriousSans-Bold.otf");
+  font-family: "Serious Shanns Bold";
+  src: url("./SeriousShanns/otf/SeriousShanns-Bold.otf");
 }
 
 @font-face {
-  font-family: "Serious Sans Bold Italic";
-  src: url("./SeriousSans/otf/SeriousSans-BoldItalic.otf");
+  font-family: "Serious Shanns Bold Italic";
+  src: url("./SeriousShanns/otf/SeriousShanns-BoldItalic.otf");
 }
 
 @font-face {
-  font-family: "Serious Sans Light";
-  src: url("./SeriousSans/otf/SeriousSans-Light.otf");
+  font-family: "Serious Shanns Light";
+  src: url("./SeriousShanns/otf/SeriousShanns-Light.otf");
 }
 
 @font-face {
-  font-family: "Serious Sans Light Italic";
-  src: url("./SeriousSans/otf/SeriousSans-LightItalic.otf");
+  font-family: "Serious Shanns Light Italic";
+  src: url("./SeriousShanns/otf/SeriousShanns-LightItalic.otf");
 }
 
 @media (min-width: 440px) {
@@ -49,7 +49,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Serious Sans", system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+  font-family: "Serious Shanns", system-ui, "Segoe UI", Roboto, Helvetica, Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 100%;
   font-size: 1.2rem;
@@ -151,27 +151,27 @@ input.serious {
 }
 
 .serious.seriousOriginal {
-  font-family: "Serious Sans";
+  font-family: "Serious Shanns";
 }
 
 .serious.seriousItalic {
-  font-family: "Serious Sans Italic";
+  font-family: "Serious Shanns Italic";
 }
 
 .serious.seriousBold {
-  font-family: "Serious Sans Bold";
+  font-family: "Serious Shanns Bold";
 }
 
 .serious.seriousBoldItalic {
-  font-family: "Serious Sans Bold Italic";
+  font-family: "Serious Shanns Bold Italic";
 }
 
 .serious.seriousLight {
-  font-family: "Serious Sans Light";
+  font-family: "Serious Shanns Light";
 }
 
 .serious.seriousLightItalic {
-  font-family: "Serious Sans Light Italic";
+  font-family: "Serious Shanns Light Italic";
 }
 
 .seriousButton {
@@ -180,25 +180,25 @@ input.serious {
 }
 
 #seriousOriginalButton {
-  font-family: "Serious Sans";
+  font-family: "Serious Shanns";
 }
 
 #seriousItalicButton {
-  font-family: "Serious Sans Italic";
+  font-family: "Serious Shanns Italic";
 }
 
 #seriousBoldButton {
-  font-family: "Serious Sans Bold";
+  font-family: "Serious Shanns Bold";
 }
 
 #seriousBoldItalicButton {
-  font-family: "Serious Sans Bold Italic";
+  font-family: "Serious Shanns Bold Italic";
 }
 
 #seriousLightButton {
-  font-family: "Serious Sans Light";
+  font-family: "Serious Shanns Light";
 }
 
 #seriousLightItalicButton {
-  font-family: "Serious Sans Light Italic";
+  font-family: "Serious Shanns Light Italic";
 }
