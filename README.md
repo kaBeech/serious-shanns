@@ -39,7 +39,7 @@ Many reasons!
 
 - To help overcome writer's block, some writers change the font of their word processor to Comic Sans. Perhaps the jaunty style helps put our brains in a playful mood so we can just write without getting hung up in self-criticism
 
-- Some people just like the look of Comic Sans ¯\_(ツ)_/¯
+- Some people just like the look of Comic Sans ¯&#92;\_(ツ)\_/¯
 
 Serious Shanns aims to provide that same experience for programmers and their IDE's. As coders, we also enjoy playful styling and tools that help us just get to work. But most of us like to have certain standards that make our work easier. Monospacing and legibility are important factors that facilitate quick scanning of many lines of code
 
