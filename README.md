@@ -15,7 +15,6 @@ This font is a fork of [dtinth](https://github.com/dtinth)'s [Comic Mono](https:
 |       [SeriousShanns-Light.otf](https://kaBeech.github.io/serious-shanns/SeriousShanns/otf/SeriousShanns-Light.otf)       | [SeriousShannsNerdFont-Light.otf](https://kaBeech.github.io/serious-shanns/SeriousShanns/otf/SeriousShannsNerdFont-Light.otf) | [SeriousShannsNerdFontMono-Light.otf](https://kaBeech.github.io/serious-shanns/SeriousShanns/otf/SeriousShannsNerdFontMono-Light.otf) | [SeriousShannsNerdFontPropo-Light.otf](https://kaBeech.github.io/serious-shanns/SeriousShanns/otf/SeriousShannsNerdFontPropo-Light.otf) |
 | [SeriousShanns-LightItalic.otf](https://kaBeech.github.io/serious-shanns/SeriousShanns/otf/SeriousShanns-LightItalic.otf) | [SeriousShannsNerdFont-LightItalic.otf](https://kaBeech.github.io/serious-shanns/SeriousShanns/otf/SeriousShannsNerdFont-LightItalic.otf) | [SeriousShannsNerdFontMono-LightItalic.otf](https://kaBeech.github.io/serious-shanns/SeriousShanns/otf/SeriousShannsNerdFontMono-LightItalic.otf) | [SeriousShannsNerdFontPropo-LightItalic.otf](https://kaBeech.github.io/serious-shanns/SeriousShanns/otf/SeriousShannsNerdFontPropo-LightItalic.otf) |
 
-
 ## What?
 
 Serious Shanns is a legible monospaced font made to resemble the classic Comic Sans font we all know and love. It is designed to be suitable for use in a professional coding environment while retaining the playfulness of the original
