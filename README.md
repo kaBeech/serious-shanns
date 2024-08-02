@@ -2,7 +2,7 @@
 
 A legible monospace font for playful professionals. Comic Sans for hackers
 
-This font is a fork of [dtinth](https://github.com/dtinth)'s [Comic Mono](https://github.com/dtinth/comic-mono-font), which in turn is a fork of [Shannon Miwa](https://github.com/shannpersand)'s [Comic Shanns](https://github.com/shannpersand/comic-shanns) (version 1)
+This font is a fork of [dtinth](https://github.com/dtinth)'s [Comic Mono](https://github.com/dtinth/comic-mono-font), which in turn is a fork of [Shannon Miwa](https://github.com/shannpersand)'s [Comic Shanns](https://github.com/shannpersand/comic-shanns) (version 1). See also [Jesús González](https://github.com/jesusmgg)'s [Comic Shanns Mono](https://github.com/jesusmgg/comic-shanns-mono)
 
 ## Downloads
 
