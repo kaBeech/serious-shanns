@@ -1,4 +1,4 @@
-# Serious Shanns
+# Serious Shanns 
 
 A legible monospace font for playful professionals. Comic Sans for hackers
 
