@@ -1,4 +1,21 @@
 {
   "projectName": "serious-shanns",
-  "projectOwner": "kaBeech"
+  "projectOwner": "kaBeech",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "vic1707",
+      "name": "Victor LEFEBVRE",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28602203?v=4",
+      "profile": "https://github.com/vic1707",
+      "contributions": [
+        "bug"
+      ]
+    }
+  ]
 }
