@@ -147,6 +147,10 @@ Serious Shanns is licensed under the [MIT License](LICENSE)
 
 ## Contributors
 
+In addition to those listed in the [LICENSE](LICENSE), thank you to the
+following contributors
+([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
