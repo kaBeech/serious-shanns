@@ -118,6 +118,12 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 
 - Adds points at extremata
 
+### v5.0.0 | 2024-08-28
+
+- Fixes rendering issues based on Em Size
+
+- Moves file format from OpenType to TrueType
+
 ## Any issues?
 
 If you notice any, please feel free to open an issue!
