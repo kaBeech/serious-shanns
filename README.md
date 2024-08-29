@@ -118,7 +118,7 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 
 - Adds points at extremata
 
-### v5.0.0 | 2024-08-28
+### v5.0.0 | 2024-08-28https://allcontributors.org/docs/en/emoji-key
 
 - Fixes rendering issues based on Em Size
 
@@ -149,7 +149,7 @@ Serious Shanns is licensed under the [MIT License](LICENSE)
 
 In addition to those listed in the [LICENSE](LICENSE), thank you to the
 following contributors
-([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
