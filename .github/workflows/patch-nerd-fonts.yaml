@@ -1,0 +1,30 @@
+name: patch-nerd-fonts
+
+on:
+  pull_request:
+    branches:
+      - patch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+        fetch-depth: 0
+    - name: Make test file
+      run: |
+        mkdir -p test
+        cd test
+        echo "Hello, World!" > test.txt
+        touch test.md
+    - name: Commit files
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git commit -a -m "Add test files"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        branch: ${{ github.head_ref }}
