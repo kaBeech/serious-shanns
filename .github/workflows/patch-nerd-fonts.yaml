@@ -13,12 +13,10 @@ jobs:
       with:
         ref: ${{ github.head_ref }}
         fetch-depth: 0
-    - name: Make test file
+    - name: Patch Nerd Fonts
       run: |
         mkdir -p test
-        cd test
-        echo "Hello, World!" > test.txt
-        touch test.md
+        podman run --rm -v $PWD/SeriousShanns/otf:/in:Z -v $PWD/test:/out:Z nerdfonts/patcher -c
     - name: Commit files
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
