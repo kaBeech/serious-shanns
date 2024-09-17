@@ -60,3 +60,7 @@
 
 - Actually fixes rendering errors in VS Code by adding missing whitespace
   glyphs to some styles
+
+## v6.0.1 | TBA
+
+- Standardizes width across all styles
