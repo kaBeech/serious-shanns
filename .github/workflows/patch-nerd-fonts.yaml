@@ -3,7 +3,7 @@ name: patch-nerd-fonts
 on:
   pull_request:
     branches:
-      - patch
+      - patch-nerd-fonts
 
 jobs:
   build:
@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        ref: ${{ github.head_ref }}
+        ref: ${{ github.ref }}
         fetch-depth: 0
     - name: Make test file
       run: |
