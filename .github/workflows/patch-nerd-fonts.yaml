@@ -13,10 +13,16 @@ jobs:
       with:
         ref: ${{ github.head_ref }}
         fetch-depth: 0
-    - name: Patch Nerd Fonts
+    - name: Patch Nerd Fonts (Regular)
       run: |
         mkdir -p test
         podman run --rm -v $PWD/SeriousShanns/otf:/in:Z -v $PWD/test:/out:Z nerdfonts/patcher -c
+    - name: Patch Nerd Fonts (Mono)
+      run: |
+        podman run --rm -v $PWD/SeriousShanns/otf:/in:Z -v $PWD/test:/out:Z nerdfonts/patcher -c --mono
+    - name: Patch Nerd Fonts (Propo)
+      run: |
+        podman run --rm -v $PWD/SeriousShanns/otf:/in:Z -v $PWD/test:/out:Z nerdfonts/patcher -c --variable-width-glyphs
     - name: Commit files
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
