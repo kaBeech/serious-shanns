@@ -16,19 +16,19 @@ jobs:
     - name: Patch Nerd Fonts (Regular)
       run: |
         mkdir -p test
-        podman run --rm -v $PWD/SeriousShanns/otf:/in:Z -v $PWD/test:/out:Z nerdfonts/patcher -c
+        podman run --rm -v $PWD/SeriousShanns/otf:/in:Z -v $PWD/SeriousShanns/nerdfont:/out:Z nerdfonts/patcher -c
     - name: Patch Nerd Fonts (Mono)
       run: |
-        podman run --rm -v $PWD/SeriousShanns/otf:/in:Z -v $PWD/test:/out:Z nerdfonts/patcher -c --mono
+        podman run --rm -v $PWD/SeriousShanns/otf:/in:Z -v $PWD/SeriousShanns/nerdfont:/out:Z nerdfonts/patcher -c --mono
     - name: Patch Nerd Fonts (Propo)
       run: |
-        podman run --rm -v $PWD/SeriousShanns/otf:/in:Z -v $PWD/test:/out:Z nerdfonts/patcher -c --variable-width-glyphs
+        podman run --rm -v $PWD/SeriousShanns/otf:/in:Z -v $PWD/SeriousShanns/nerdfont:/out:Z nerdfonts/patcher -c --variable-width-glyphs
     - name: Commit files
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add .
-        git commit -m "Add test files"
+        git commit -m "Patch Nerd Fonts"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
