@@ -63,4 +63,4 @@
 
 ## v6.0.1 | TBA
 
-- Standardizes width across all styles
+- Fix width issues
