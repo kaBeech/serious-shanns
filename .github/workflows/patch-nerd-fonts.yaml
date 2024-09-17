@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        ref: ${{ github.ref }}
+        ref: ${{ github.head_ref }}
         fetch-depth: 0
     - name: Make test file
       run: |
@@ -28,4 +28,4 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        branch: ${{ github.ref }}
+        branch: ${{ github.head_ref }}
