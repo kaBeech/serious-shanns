@@ -16,6 +16,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "mcourteaux",
+      "name": "Martijn Courteaux",
+      "avatar_url": "https://avatars.githubusercontent.com/u/845012?v=4",
+      "profile": "https://silvernode.io",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
