@@ -15,7 +15,6 @@ jobs:
         fetch-depth: 0
     - name: Patch Nerd Fonts (Regular)
       run: |
-        mkdir -p test
         podman run --rm -v $PWD/SeriousShanns/otf:/in:Z -v $PWD/SeriousShanns/NerdFont:/out:Z nerdfonts/patcher -c
     - name: Patch Nerd Fonts (Mono)
       run: |
@@ -27,6 +26,10 @@ jobs:
       run: |
         cd SeriousShanns
         mkdir -p SeriousShanns
+        mkdir -p otf
+        mkdir -p NerdFont
+        mkdir -p NerdFontMono
+        mkdir -p NerdFontPropo
         cp -r otf NerdFont NerdFontMono NerdFontPropo SeriousShanns/
         zip -r SeriousShanns.zip SeriousShanns/
         zip -r SeriousShannsOTF.zip otf/
