@@ -61,8 +61,14 @@
 - Actually fixes rendering errors in VS Code by adding missing whitespace
   glyphs to some styles
 
-## v6.0.1 | TBA
+## v7.0.0 | TBA
+
+- Adds 'ł' and 'Ł' glyphs
+
+- Fixes font family name for non-Nerd Fonts
+
+- Makes Italic styles Oblique
 
 - Standardizes width across all styles
 
-- Adds 'ł' and 'Ł' glyphs
+- Adjusts scale
