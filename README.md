@@ -14,6 +14,7 @@ This font is a fork of [dtinth](https://github.com/dtinth)'s [Comic Mono](https:
     </a>.
 </i>
 
+-------
 
 [All font files](https://kaBeech.github.io/serious-shanns/SeriousShanns/SeriousShanns.zip)
 
