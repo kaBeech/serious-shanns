@@ -1,7 +1,7 @@
 SplineFontDB: 3.2
 FontName: SeriousShannsBoldItalic
 FullName: Serious Shanns Bold Italic
-FamilyName: Serious Shanns Bold Italic
+FamilyName: Serious Shanns
 Weight: Bold
 Copyright: https://github.com/kaBeech/serious-shanns/blob/main/LICENSE
 Version: 6.0.0
@@ -7002,7 +7002,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 EndChars
 EndSplineFont

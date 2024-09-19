@@ -1,7 +1,7 @@
 SplineFontDB: 3.2
 FontName: SeriousShannsLight
 FullName: Serious Shanns Light
-FamilyName: Serious Shanns Light
+FamilyName: Serious Shanns
 Weight: Light
 Copyright: https://github.com/kaBeech/serious-shanns/blob/main/LICENSE
 Version: 6.0.0
@@ -3837,7 +3837,7 @@ SplineSet
  132.169921875 642.18359375 142.227539062 645.725585938 154.127929688 645.725585938 c 0
  166.028320312 645.725585938 183.025390625 644.025390625 205.125 640.625 c 0xc0
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: bracketleft
@@ -4055,7 +4055,7 @@ SplineSet
  481.376953125 486.545898438 l 2
  478.543945312 485.413085938 475.9921875 484.849609375 473.724609375 484.849609375 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: underscore
@@ -6645,7 +6645,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 8912897
+Validated: 1
 EndChar
 
 StartChar: Lslash
@@ -6922,7 +6922,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
