@@ -64,7 +64,7 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 - Edits the 'a' to make it look less like an 'o'
 - Edits the 'l' to make it look less like a '1'
 - Edits the 'Y' to make it look less like a 'y'
-- Adds 'λ'
+- Adds 'λ', 'ł', and 'Ł' glyphs
 - Adds a Light weight style
 - Adds Italic styles for each weight style
 

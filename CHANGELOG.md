@@ -64,3 +64,5 @@
 ## v6.0.1 | TBA
 
 - Standardizes width across all styles
+
+- Adds 'ł' and 'Ł' glyphs
