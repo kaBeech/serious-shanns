@@ -6,6 +6,18 @@ This font is a fork of [dtinth](https://github.com/dtinth)'s [Comic Mono](https:
 
 ## Downloads
 
+-------
+
+<i>
+  Note: These downloads are for the bleeding edge (unstable) version. For
+  stable releases, please see the 
+    <a href="https://github.com/kaBeech/serious-shanns/releases">
+      releases page
+    </a>.
+</i>
+
+-------
+
 [All font files](https://kaBeech.github.io/serious-shanns/SeriousShanns/SeriousShanns.zip)
 
 |                                                 Regular                                                 |                              [Nerd Font](https://www.nerdfonts.com/)                              |                              Nerd Font Mono                            |                              Nerd Font Propo                              |
