@@ -7,6 +7,7 @@ This font is a fork of [dtinth](https://github.com/dtinth)'s [Comic Mono](https:
 ## Downloads
 
 -------
+
 <i>
   Note: These downloads are for the bleeding edge (unstable) version. For
   stable releases, please see the 
@@ -14,6 +15,7 @@ This font is a fork of [dtinth](https://github.com/dtinth)'s [Comic Mono](https:
       releases page
     </a>.
 </i>
+
 -------
 
 [All font files](https://kaBeech.github.io/serious-shanns/SeriousShanns/SeriousShanns.zip)
