@@ -1,7 +1,7 @@
 SplineFontDB: 3.2
 FontName: SeriousShannsItalic
 FullName: Serious Shanns Italic
-FamilyName: Serious Shanns Italic
+FamilyName: Serious Shanns
 Weight: Book
 Copyright: https://github.com/kaBeech/serious-shanns/blob/main/LICENSE
 Version: 6.0.0
@@ -6245,9 +6245,9 @@ Encoding: 322 322 123
 Width: 548
 VWidth: 899
 InSpiro: 1
-Flags: HW
-HStem: 638.33 156.4
-VStem: 211.507 170
+Flags: W
+HStem: 25.4805 73.163<295.703 342.429>
+VStem: 182.082 76.8316<141.051 178.545>
 LayerCount: 2
 Fore
 SplineSet
@@ -6510,7 +6510,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: Lslash
@@ -6518,8 +6518,8 @@ Encoding: 321 321 124
 Width: 548
 VWidth: 901
 InSpiro: 1
-Flags: HW
-HStem: 44.1757 68.8525
+Flags: W
+HStem: 39.6415 73.3868<188.091 291.698>
 LayerCount: 2
 Fore
 SplineSet
@@ -6780,7 +6780,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
