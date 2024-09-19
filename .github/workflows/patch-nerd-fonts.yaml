@@ -16,13 +16,25 @@ jobs:
     - name: Patch Nerd Fonts (Regular)
       run: |
         mkdir -p test
-        podman run --rm -v $PWD/SeriousShanns/otf:/in:Z -v $PWD/SeriousShanns/nerdfont:/out:Z nerdfonts/patcher -c
+        podman run --rm -v $PWD/SeriousShanns/otf:/in:Z -v $PWD/SeriousShanns/NerdFont:/out:Z nerdfonts/patcher -c
     - name: Patch Nerd Fonts (Mono)
       run: |
-        podman run --rm -v $PWD/SeriousShanns/otf:/in:Z -v $PWD/SeriousShanns/nerdfont:/out:Z nerdfonts/patcher -c --mono
+        podman run --rm -v $PWD/SeriousShanns/otf:/in:Z -v $PWD/SeriousShanns/NerdFontMono:/out:Z nerdfonts/patcher -c --mono
     - name: Patch Nerd Fonts (Propo)
       run: |
-        podman run --rm -v $PWD/SeriousShanns/otf:/in:Z -v $PWD/SeriousShanns/nerdfont:/out:Z nerdfonts/patcher -c --variable-width-glyphs
+        podman run --rm -v $PWD/SeriousShanns/otf:/in:Z -v $PWD/SeriousShanns/NerdFontPropo:/out:Z nerdfonts/patcher -c --variable-width-glyphs
+    - name: Archive files
+      run: |
+        cd SeriousShanns
+        mkdir -p SeriousShanns
+        cp -r otf NerdFont NerdFontMono NerdFontPropo SeriousShanns/
+        zip -r SeriousShanns.zip SeriousShanns/
+        zip -r SeriousShannsOTF.zip otf/
+        zip -r SeriousShannsNerdFont.zip NerdFont/
+        zip -r SeriousShannsNerdFontMono.zip NerdFontMono/
+        zip -r SeriousShannsNerdFontPropo.zip NerdFontPropo/
+        rm SeriousShanns/ -r
+        cd ..
     - name: Commit files
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
