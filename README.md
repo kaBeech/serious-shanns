@@ -103,6 +103,7 @@ following contributors
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/vic1707"><img src="https://avatars.githubusercontent.com/u/28602203?v=4?s=100" width="100px;" alt="Victor LEFEBVRE"/><br /><sub><b>Victor LEFEBVRE</b></sub></a><br /><a href="#bug-vic1707" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://silvernode.io"><img src="https://avatars.githubusercontent.com/u/845012?v=4?s=100" width="100px;" alt="Martijn Courteaux"/><br /><sub><b>Martijn Courteaux</b></sub></a><br /><a href="#bug-mcourteaux" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/chmielcode"><img src="https://avatars.githubusercontent.com/u/45938987?v=4?s=100" width="100px;" alt="chmielcode"/><br /><sub><b>chmielcode</b></sub></a><br /><a href="#ideas-chmielcode" title="Ideas, Planning, & Feedback">🤔</a></td>
     </tr>
   </tbody>
 </table>
