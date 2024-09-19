@@ -1,7 +1,7 @@
 SplineFontDB: 3.2
 FontName: SeriousShannsBold
 FullName: Serious Shanns Bold
-FamilyName: Serious Shanns Bold
+FamilyName: Serious Shanns
 Weight: Bold
 Copyright: https://github.com/kaBeech/serious-shanns/blob/main/LICENSE
 Version: 6.0.0
@@ -4254,7 +4254,7 @@ SplineSet
  148.974171728 138.666387831 148.973603784 138.673942683 148.973603784 138.681430799 c 1
  148.973603784 138.67392508 148.974171728 138.666369824 148.974171728 138.658766095 c 1
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: g
@@ -6290,7 +6290,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 8912897
+Validated: 1
 EndChar
 
 StartChar: lslash
@@ -6552,7 +6552,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 8912897
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
