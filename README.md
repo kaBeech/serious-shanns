@@ -81,16 +81,9 @@ I originally changed the font in my IDE to Comic Mono as a joke. I decided to le
 - Adds a Light weight style
 - Adds Italic styles for each weight style
 
-## Any issues?
+## Any Issues?
 
-If you notice any, please feel free to open an issue!
-
-The Light weight version could use some refining still (the height
-and x-height seem to be off for some glyphs). I improved the x-height
-for the Light Italic style (where it was especially noticable) but I
-have not yet improved Light Original
-
-There are some horizontal alignment issues with t/T's and f's in the Italic styles
+If you notice any, please open an issue here! It is far more likely that I have done something wonky than it is that your favorite terminal emulator, IDE, browser, etc has a bug affecting Serious Shanns 😉
 
 ## See Also
 
